@@ -1,0 +1,139 @@
+pathway,call,category,gene_function,Gene.abbreviation
+Ammonia oxidation,metabolic,Nitrogen cycling,Ammonia oxidation,amoA
+Ammonia oxidation,metabolic,Nitrogen cycling,Ammonia oxidation,amoC
+Ammonia oxidation,metabolic,Nitrogen cycling,Ammonia oxidation,amoB
+Carbon fixation,metabolic,Carbon fixation,3 Hydroxypropionate cycle,prpE
+Carbon fixation,metabolic,Carbon fixation,3HP/4HB,abfD
+Carbon fixation,metabolic,Carbon fixation,3HP/4HB,K14466
+Carbon fixation,metabolic,Carbon fixation,CBB cycle - Rubisco,Form I
+Carbon fixation,metabolic,Carbon fixation,CBB cycle - Rubisco,Form II
+Carbon fixation,metabolic,Carbon fixation,CBB cycle - Rubisco,Form II/III
+Carbon fixation,metabolic,Carbon fixation,Reverse TCA cycle,aclA
+Carbon fixation,metabolic,Carbon fixation,Reverse TCA cycle,aclB
+Carbon fixation,metabolic,Carbon fixation,Wood Ljungdahl pathway,cdhD
+Carbon fixation,metabolic,Carbon fixation,Wood Ljungdahl pathway,cdhE
+Carbon fixation,metabolic,Carbon fixation,Wood Ljungdahl pathway,cooS
+hydrogen oxidation,metabolic,Hydrogenases,FeFe hydrogenase,fefe-group-a13
+hydrogen oxidation,metabolic,Hydrogenases,FeFe hydrogenase,fefe-group-c1
+hydrogen oxidation,metabolic,Hydrogenases,FeFe hydrogenase,fefe-group-c3
+hydrogen oxidation,metabolic,Hydrogenases,FeFe hydrogenase,fefe-group-b
+hydrogen oxidation,metabolic,Hydrogenases,FeFe hydrogenase,fefe-group-c2
+hydrogen oxidation,metabolic,Hydrogenases,FeFe hydrogenase,fefe-group-a4
+hydrogen oxidation,metabolic,Hydrogenases,Ni-Fe Hydrogenase,nife-group-1
+hydrogen oxidation,metabolic,Hydrogenases,Ni-Fe Hydrogenase,nife-group-3abd
+hydrogen oxidation,metabolic,Hydrogenases,Ni-Fe Hydrogenase,nife-group-4a-g
+hydrogen oxidation,metabolic,Hydrogenases,Ni-Fe Hydrogenase,nife-group-3c
+hydrogen oxidation,metabolic,Hydrogenases,Ni-Fe Hydrogenase,nife-group-2bc
+hydrogen oxidation,metabolic,Hydrogenases,Ni-Fe Hydrogenase,nife-group-2ade
+hydrogen oxidation,metabolic,Hydrogenases,Ni-Fe Hydrogenase,nife-group-4hi
+iron_oxidation,fegenie,iron_oxidation,Cyc1,NA
+iron_oxidation,fegenie,iron_oxidation,Cyc2_repCluster1,NA
+iron_oxidation,fegenie,iron_oxidation,Cyc2_repCluster2,NA
+iron_oxidation,fegenie,iron_oxidation,Cyc2_repCluster3,NA
+iron_oxidation,fegenie,iron_oxidation,FoxE,NA
+iron_oxidation,fegenie,iron_oxidation,FoxY,NA
+iron_reduction,fegenie,iron_reduction,2514223670 filler {omc} Geobacter sulfurreducens CxxxxCH...CXXCH domain-containing protein [Ignavibacterium album Mat9-16; JCM 16511 : NC_017464],NA
+iron_reduction,fegenie,iron_reduction,2514223671 filler {pc} c(7)-type cytochrome triheme domain-containing protein [Ignavibacterium album Mat9-16; JCM 16511 : NC_017464],NA
+iron_reduction,fegenie,iron_reduction,2514223672 filler {porin} hypothetical protein [Ignavibacterium album Mat9-16; JCM 16511 : NC_017464],NA
+iron_reduction,fegenie,iron_reduction,637127333 NP_953688 {omc} (extC) cytochrome c family protein [Geobacter sulfurreducens PCA: NC_002939],NA
+iron_reduction,fegenie,iron_reduction,637127334 NP_953689 {porin} (extB) hypothetical protein [Geobacter sulfurreducens PCA: NC_002939],NA
+iron_reduction,fegenie,iron_reduction,637127415 NP_953769 {omc} cytochrome c family protein [Geobacter sulfurreducens PCA: NC_002939],NA
+iron_reduction,fegenie,iron_reduction,637127416 NP_953770 {pc} cytochrome c family protein [Geobacter sulfurreducens PCA: NC_002939],NA
+iron_reduction,fegenie,iron_reduction,637127417 NP_953771 {porin} hypothetical protein [Geobacter sulfurreducens PCA: NC_002939],NA
+iron_reduction,fegenie,iron_reduction,637127428 NP_953782 {omc} omcB polyheme membrane-associated cytochrome c [Geobacter sulfurreducens PCA: NC_002939],NA
+iron_reduction,fegenie,iron_reduction,637127429 NP_953783 {pc} omaB cytochrome c family protein [Geobacter sulfurreducens PCA: NC_002939],NA
+iron_reduction,fegenie,iron_reduction,637127430 NP_953784 {porin} ombB hypothetical protein [Geobacter sulfurreducens PCA: NC_002939],NA
+iron_reduction,fegenie,iron_reduction,637778105 YP_383794 {pc} cytochrome c family protein [Geobacter metallireducens GS-15: NC_007517],NA
+iron_reduction,fegenie,iron_reduction,637778187 YP_383875 {porin} hypothetical protein [Geobacter metallireducens GS-15: NC_007517],NA
+iron_reduction,fegenie,iron_reduction,637778191 YP_383879 {pc} cytochrome c family protein [Geobacter metallireducens GS-15: NC_007517],NA
+iron_reduction,fegenie,iron_reduction,638465402 ZP_01313809 {porin} hypothetical protein [Desulfuromonas acetoxidans DSM 684; unfinished sequence: NZ_AAEW02000022],NA
+iron_reduction,fegenie,iron_reduction,638465403 ZP_01313810 {pc} cytochrome c family protein [Desulfuromonas acetoxidans DSM 684; unfinished sequence: NZ_AAEW02000022],NA
+iron_reduction,fegenie,iron_reduction,640548487 YP_001229770 {porin} hypothetical protein [Geobacter uraniumreducens Rf4: NC_009483],NA
+iron_reduction,fegenie,iron_reduction,640548488 YP_001229771 {pc} hypothetical protein [Geobacter uraniumreducens Rf4: NC_009483],NA
+iron_reduction,fegenie,iron_reduction,640548489 YP_001229772 {omc} cytochrome C family protein [Geobacter uraniumreducens Rf4: NC_009483],NA
+iron_reduction,fegenie,iron_reduction,640549328 YP_001230600 {omc} cytochrome C family protein [Geobacter uraniumreducens Rf4: NC_009483],NA
+iron_reduction,fegenie,iron_reduction,640549330 YP_001230602 {porin} hypothetical protein [Geobacter uraniumreducens Rf4: NC_009483],NA
+iron_reduction,fegenie,iron_reduction,642557019 CAJ74787 {porin} unknown protein [Kuenenia stuttgartiensis genome fragment KUST_E (5 of 5).: CT573071],NA
+iron_reduction,fegenie,iron_reduction,642557020 CAJ74788 {pc} hypothetical multiheme cytochrome c protein [Kuenenia stuttgartiensis genome fragment KUST_E (5 of 5).: CT573071],NA
+iron_reduction,fegenie,iron_reduction,642769370 YP_002140170 {omc} polyheme membrane-associated cytochrome c [Geobacter bemidjiensis Bem: NC_011146],NA
+iron_reduction,fegenie,iron_reduction,643638980 YP_002537145 {omc} hypothetical protein [Geobacter sp. FRC-32: NC_011979],NA
+iron_reduction,fegenie,iron_reduction,646796949 YP_003639120 TherJR_0333 hypothetical protein [Thermincola sp. JR: NC_014152],NA
+iron_reduction,fegenie,iron_reduction,646797728 YP_003639887 TherJR_1122 cytochrome C family protein [Thermincola sp. JR: NC_014152],NA
+iron_reduction,fegenie,iron_reduction,646799199 YP_003641333 TherJR_2595 hypothetical protein [Thermincola sp. JR: NC_014152],NA
+iron_reduction,fegenie,iron_reduction,646847492 YP_003691554 {porin} hypothetical protein [Desulfurivibrio alkaliphilus AHT2 chromosome: NC_014216],NA
+iron_reduction,fegenie,iron_reduction,646847494 YP_003691556 {omc} hypothetical protein [Desulfurivibrio alkaliphilus AHT2 chromosome: NC_014216],NA
+iron_reduction,fegenie,iron_reduction,649844784 YP_004113752 {pc} hypothetical protein [Desulfurispirillum indicum S5 chromosome: NC_014836],NA
+iron_reduction,fegenie,iron_reduction,649844785 YP_004113753 (porin} hypothetical protein [Desulfurispirillum indicum S5 chromosome: NC_014836],NA
+iron_reduction,fegenie,iron_reduction,649931661 YP_004200172 {pc} cytochrome c family protein [Geobacter sp. M18 chromosome: NC_014973],NA
+iron_reduction,fegenie,iron_reduction,649931662 YP_004200173 {porin} hypothetical protein [Geobacter sp. M18 chromosome: NC_014973],NA
+iron_reduction,fegenie,iron_reduction,DFE_0448,NA
+iron_reduction,fegenie,iron_reduction,DFE_0449,NA
+iron_reduction,fegenie,iron_reduction,DFE_0450,NA
+iron_reduction,fegenie,iron_reduction,DFE_0461,NA
+iron_reduction,fegenie,iron_reduction,DFE_0462,NA
+iron_reduction,fegenie,iron_reduction,DFE_0463,NA
+iron_reduction,fegenie,iron_reduction,DFE_0464,NA
+iron_reduction,fegenie,iron_reduction,DFE_0465,NA
+iron_reduction,fegenie,iron_reduction,MtrA,NA
+iron_reduction,fegenie,iron_reduction,MtrB_TIGR03509,NA
+iron_reduction,fegenie,iron_reduction,MtrC_TIGR03507,NA
+iron_reduction,fegenie,iron_reduction,OmcF,NA
+iron_reduction,fegenie,iron_reduction,OmcS,NA
+iron_reduction,fegenie,iron_reduction,OmcZ,NA
+iron_reduction,metabolic,Metal reduction,Metal (Iron/Manganese) reduction,mtrB
+iron_reduction,metabolic,Metal reduction,Metal (Iron/Manganese) reduction,mtrC
+methane oxidation,metabolic,Methane metabolism,Methane oxidation - Partculate methane monooxygenase,pmoB
+methane oxidation,metabolic,Methane metabolism,Methane oxidation - Partculate methane monooxygenase,pmoC
+methane oxidation,metabolic,Methane metabolism,Methane oxidation - Partculate methane monooxygenase,pmoA
+methane oxidation,metabolic,Methane metabolism,Methane oxidation - Soluble methane monoxygenase,mmoB
+methane oxidation,metabolic,Methane metabolism,Methane oxidation - Soluble methane monoxygenase,mmoD
+Methane production,metabolic,Methane metabolism,Methane production,mcrA
+Methane production,metabolic,Methane metabolism,Methane production,mcrB
+Methane production,metabolic,Methane metabolism,Methane production,mcrC
+Nitrate reduction,metabolic,Nitrogen cycling,Nitrate reduction,napA
+Nitrate reduction,metabolic,Nitrogen cycling,Nitrate reduction,narG
+Nitrate reduction,metabolic,Nitrogen cycling,Nitrate reduction,narH
+Nitrate reduction,metabolic,Nitrogen cycling,Nitrate reduction,napB
+org C oxidation,metabolic,C1 metabolism,Aerobic CO oxidation,coxM
+org C oxidation,metabolic,C1 metabolism,Aerobic CO oxidation,coxS
+org C oxidation,metabolic,C1 metabolism,Aerobic CO oxidation,coxL
+org C oxidation,metabolic,C1 metabolism,Formaldehyde oxidation,fghA
+org C oxidation,metabolic,C1 metabolism,Formaldehyde oxidation,frmA
+org C oxidation,metabolic,C1 metabolism,Formaldehyde oxidation,fae
+org C oxidation,metabolic,C1 metabolism,Formaldehyde oxidation,fdhA
+org C oxidation,metabolic,C1 metabolism,Formate oxidation,fdoG
+org C oxidation,metabolic,C1 metabolism,Formate oxidation,fdoH
+org C oxidation,metabolic,C1 metabolism,Formate oxidation,fdwB
+org C oxidation,metabolic,C1 metabolism,Formate oxidation,fdhA
+org C oxidation,metabolic,C1 metabolism,Formate oxidation,fdhB
+org C oxidation,metabolic,C1 metabolism,Methanol oxidation,mxaF
+org C oxidation,metabolic,C1 metabolism,Methyl amine -> formaldehyde,mauB
+org C oxidation,metabolic,C1 metabolism,Methyl amine -> formaldehyde,mauA
+oxygen reduction,metabolic,Oxidative phosphorylation,Complex I (NAD(P)H-quinone oxidoreductase),NdhA
+oxygen reduction,metabolic,Oxidative phosphorylation,Complex I (NAD(P)H-quinone oxidoreductase),NdhB
+oxygen reduction,metabolic,Oxidative phosphorylation,Complex I (NAD(P)H-quinone oxidoreductase),NdhC
+oxygen reduction,metabolic,Oxidative phosphorylation,Complex I (NADH-quinone oxidoreductase),nuoA
+oxygen reduction,metabolic,Oxidative phosphorylation,Complex I (NADH-quinone oxidoreductase),nuoB
+oxygen reduction,metabolic,Oxidative phosphorylation,Complex I (NADH-quinone oxidoreductase),nuoC
+oxygen reduction,metabolic,Oxidative phosphorylation,Complex II (Succinate dehydrogenase/Fumarate reductase),sdhC
+oxygen reduction,metabolic,Oxidative phosphorylation,Complex II (Succinate dehydrogenase/Fumarate reductase),sdhD
+oxygen reduction,metabolic,Oxidative phosphorylation,Complex III (Cytochrome c reductase),fbcH
+oxygen reduction,metabolic,Oxidative phosphorylation,Complex III (Cytochrome c reductase),petA
+oxygen reduction,metabolic,Oxidative phosphorylation,Complex III (Cytochrome c reductase),petB
+oxygen reduction,metabolic,Oxidative phosphorylation,Complex V (ATP synthase: V/A-type H+/Na+-transporting ATPase),atpA (V/A-type)
+oxygen reduction,metabolic,Oxidative phosphorylation,Complex V (ATP synthase: V/A-type H+/Na+-transporting ATPase),atpB (V/A-type)
+oxygen reduction,metabolic,Oxidative phosphorylation,Complex V (F-type H+-transporting ATPase),atpA (F-type)
+oxygen reduction,metabolic,Oxidative phosphorylation,Complex V (F-type H+-transporting ATPase),atpD (F-type)
+oxygen reduction,metabolic,Oxygen metabolism (Oxidative phosphorylation Complex IV),"Oxygen metabolism - cytochrome (quinone) oxidase, bd type",cydA
+oxygen reduction,metabolic,Oxygen metabolism (Oxidative phosphorylation Complex IV),"Oxygen metabolism - cytochrome (quinone) oxidase, bd type",cydB
+oxygen reduction,metabolic,Oxygen metabolism (Oxidative phosphorylation Complex IV),"Oxygen metabolism - cytochrome (quinone) oxidase, bo type",cyoA
+oxygen reduction,metabolic,Oxygen metabolism (Oxidative phosphorylation Complex IV),"Oxygen metabolism - cytochrome (quinone) oxidase, bo type",cyoB
+oxygen reduction,metabolic,Oxygen metabolism (Oxidative phosphorylation Complex IV),"Oxygen metabolism - cytochrome (quinone) oxidase, bo type",cyoC
+oxygen reduction,metabolic,Oxygen metabolism (Oxidative phosphorylation Complex IV),"Oxygen metabolism - cytochrome (quinone) oxidase, bo type",cyoD
+oxygen reduction,metabolic,Oxygen metabolism (Oxidative phosphorylation Complex IV),"Oxygen metabolism - cytochrome c oxidase, caa3-type",coxA
+oxygen reduction,metabolic,Oxygen metabolism (Oxidative phosphorylation Complex IV),"Oxygen metabolism - cytochrome c oxidase, caa3-type",coxB
+oxygen reduction,metabolic,Oxygen metabolism (Oxidative phosphorylation Complex IV),"Oxygen metabolism - cytochrome c oxidase, cbb3-type",ccoN
+oxygen reduction,metabolic,Oxygen metabolism (Oxidative phosphorylation Complex IV),"Oxygen metabolism - cytochrome c oxidase, cbb3-type",ccoO
+oxygen reduction,metabolic,Oxygen metabolism (Oxidative phosphorylation Complex IV),"Oxygen metabolism - cytochrome c oxidase, cbb3-type",ccoP
+Perchlorate reduction,metabolic,Perchlorate reduction,Perchlorate reduction,pcrA
+Perchlorate reduction,metabolic,Perchlorate reduction,Perchlorate reduction,pcrB

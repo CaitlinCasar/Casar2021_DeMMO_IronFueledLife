@@ -1,0 +1,8 @@
+WC_simplified_contigs 543229
+DeMMO6_simplified_contigs 444350
+DeMMO2_simplified_contigs 378180
+DeMMO5_simplified_contigs 190877
+SW_simplified_contigs 565484
+DeMMO3_simplified_contigs 338355
+DeMMO1_simplified_contigs 128801
+DeMMO4_simplified_contigs 178788

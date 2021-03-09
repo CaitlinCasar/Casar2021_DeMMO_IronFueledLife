@@ -1,0 +1,195 @@
+,phylum,hex.color,order
+unclassified,__,#000000,1
+unclassified,Ambiguous_taxa,#1F1F1F,2
+unclassified,Bacteria,#1F1F1F,3
+unclassified,Other,#1F1F1F,4
+unclassified,Unassigned,#1F1F1F,5
+unclassified,uncultured_bacteria,#000000,6
+unclassified,Opalinata,#000000,7
+archaea,Euryarchaeota,#560B8E,8
+archaea,Crenarchaeota,#790Fc8,9
+archaea,Korarchaeota,#F0A5E6,10
+archaea,Thaumarchaeota,#680Dab,11
+archaea,Methanomicrobia,#A569Bd,12
+archaea,Methanobacteria,#7D3C98,13
+archaea,Halobacteria,#8A11E4,14
+uncult archaea,Aenigmarchaeota,#9F8Aab,15
+uncult archaea,Altiarchaeota,#e2dae8,16
+uncult archaea,Asgardaeota,#E5Ccf7,17
+uncult archaea,Asgardarchaeota,#E5Ccf7,18
+uncult archaea,Diapherotrites,#B977E9,19
+uncult archaea,Hadesarchaeaeota,#Decbff,20
+uncult archaea,Hydrothermarchaeota,#Baa2E6,21
+uncult archaea,Halobacterota,#0C4D9C,22
+uncult archaea,Hadarchaeota,#Decbff,23
+uncult archaea,Iainarchaeota,#C7A9C3,24
+uncult archaea,Micrarchaeota,#C288Ec,25
+uncult archaea,Nanoarchaeaeota,#D3Aaf1,26
+uncult archaea,Nanoarchaeota,#D3Aaf1,27
+uncult archaea,Nanohaloarchaeota,#8A0Ac9,28
+uncult archaea,Woesearchaeota,#272051,29
+uncult archaea,Archaea,#A200Ff,30
+uncult archaea,uncultured_archaea,#000000,31
+proteo,Alphaproteobacteria,#787878,32
+proteo,Betaproteobacteria,#585858,33
+proteo,Proteobacteria,#808080,34
+proteo,Deltaproteobacteria,#989898,35
+proteo,Desulfobacterota,#989898,36
+proteo,Gammaproteobacteria,#C8C8C8,37
+proteo,Epsilonbacteraeota,#D3D3D3,38
+bacteria,Acidobacteria,#347aeb,39
+bacteria,Acidobacteriota,#347aeb,40
+bacteria,Actinobacteria,#005Cff,41
+bacteria,Actinobacteriota,#005Cff,42
+bacteria,Anaerolineales,#00B9E0,43
+bacteria,Aquificota,#1C58Ed,44
+bacteria,Armatimonadetes,#79D9F2,45
+bacteria,Armatimonadota,#79D9F2,46
+bacteria,Bacteroidetes,#0084Ff,47
+bacteria,Bacteroidota,#0084Ff,48
+bacteria,Bdellovibrionota,#5199C2,49
+bacteria,Brocadiae,#0015E5,50
+bacteria,Caldiserica,#00B6E5,51
+bacteria,Caldisericota,#00B6E5,52
+bacteria,Calditrichaeota,#227799,53
+bacteria,Calditrichota,#227799,54
+bacteria,Calescibacterota,#3F7F42,55
+bacteria,Campilobacterota,#3F7F42,56
+bacteria,Chlamydiae,#00A1Ff,57
+bacteria,Chlorobi,#B3E0Ff,58
+bacteria,Chloroflexi,#00B9E0,59
+bacteria,Chrysiogenetota,#72D4F7,60
+bacteria,Clostridia,#7984F2,61
+bacteria,Coprothermobacterota,#5C59Ff,62
+bacteria,Cyanobacteria,#Ccd0Ff,63
+bacteria,Cytophagia,#Bbccdd,64
+bacteria,Deferribacteres,#118822,65
+bacteria,Deferribacterota,#118822,66
+bacteria,Deferrisomatota,#118822,67
+bacteria,Deinococcota,#Aabbdd,68
+bacteria,Deinococcus-Thermus,#Aabbdd,69
+bacteria,Dictyoglomota,#899Acc,70
+bacteria,Elusimicrobia,#0085A8,71
+bacteria,Elusimicrobiota,#0085A8,72
+bacteria,Entotheonellaeota,#C2D8Ad,73
+bacteria,Fibrobacteres,#99A2Ff,74
+bacteria,Fibrobacterota,#99A2Ff,75
+bacteria,Firmicutes,#7984F2,76
+bacteria,Fusobacteria,#3F457F,77
+bacteria,Fusobacteriota,#3F457F,78
+bacteria,Gemmatimonadetes,#005566,79
+bacteria,Gemmatimonadota,#005566,80
+bacteria,Halanaerobiaeota,#7984F2,81
+bacteria,Ignavibacteria,#79F2E6,82
+bacteria,Myxococcota,#222299,83
+bacteria,Nitrospirae,#112288,84
+bacteria,Nitrospirota,#112288,85
+bacteria,Parachlamydiales,#00A1Ff,86
+bacteria,Phycisphaerae,#0015E5,87
+bacteria,Planctomycetes,#0015E5,88
+bacteria,Planctomycetota,#0015E5,89
+bacteria,Spirochaetes,#111188,90
+bacteria,Spirochaetota,#111188,91
+bacteria,Synergistetes,#00665B,92
+bacteria,Synergistota,#00665B,93
+bacteria,Tenericutes,#000Fa8,94
+bacteria,Thermodesulfobiota,#6E8Ee0,95
+bacteria,Thermoplasmata,#342D62,96
+bacteria,Thermoplasmatota,#342D62,97
+bacteria,Thermosulfidibacterota,#35A0F2,98
+bacteria,Thermotogota,#7A98Fa,99
+bacteria,Verrucomicrobia,#001166,100
+bacteria,Verrucomicrobiota,#001166,101
+uncultured bacteria,10bav-F6,#B8E858,102
+uncultured bacteria,AABM512524,#Daf2Db,103
+uncultured bacteria,Abditibacteriota,#76Ad09,104
+uncultured bacteria,Acetothermia,#79F27E,105
+uncultured bacteria,Aerophobota,#E0Cf0D,106
+uncultured bacteria,AncK6,#00E50B,107
+uncultured bacteria,Apal-E12,#Ede61C,108
+uncultured bacteria,Atribacteria,#88Aa88,109
+uncultured bacteria,BHI80-139,#7Ac251,110
+uncultured bacteria,Bipolaricaulis,#79F27E,111
+uncultured bacteria,Bipolaricaulota,#79F27E,112
+uncultured bacteria,BRC1,#229922,113
+uncultured bacteria,Caldatribacteriota,#88Aa88,114
+uncultured bacteria,Calescamantes,#3F7F42,115
+uncultured bacteria,CK-2C2-2,#71D32E,116
+uncultured bacteria,Cloacimonadota,#59Ff85,117
+uncultured bacteria,Dadabacteria,#00A808,118
+uncultured bacteria,Dependentiae,#Ff7F70,119
+uncultured bacteria,Desantisbacteria,#006604,120
+uncultured bacteria,DTB120,#Dfeb8A,121
+uncultured bacteria,Edwardsbacteria,#003302,122
+uncultured bacteria,Eisenbacteria,#B5F279,123
+uncultured bacteria,Eremiobacteria,#72E500,124
+uncultured bacteria,Eremiobacterota,#72E500,125
+uncultured bacteria,FBP,#116688,126
+uncultured bacteria,FCPU426,#53A800,127
+uncultured bacteria,Fermentibacterota,#C7E016,128
+uncultured bacteria,Fervidibacteria,#A1C942,129
+uncultured bacteria,Firestonebacteria,#5F7F3F,130
+uncultured bacteria,FW113,#A9E815,131
+uncultured bacteria,GAL15,#448811,132
+uncultured bacteria,GN01,#Deda04,133
+uncultured bacteria,Goldbacteria,#Ffff99,134
+uncultured bacteria,Hydrogenedentes,#336600,135
+uncultured bacteria,Hydrothermae,#0Eab67,136
+uncultured bacteria,Kapabacteria,#193300,137
+uncultured bacteria,Kapabacteriales,#193300,138
+uncultured bacteria,Kiritimatiellaeota,#00E5Ce,139
+uncultured bacteria,Latescibacteria,#Edf2Da,140
+uncultured bacteria,Latescibacterota,#Edf2Da,141
+uncultured bacteria,LCP-89,#Dcf279,142
+uncultured bacteria,Lentisphaerae,#0A8997,143
+uncultured bacteria,Lindowbacteria,#0Dddbb,144
+uncultured bacteria,Margulisbacteria,#Ccddaa,145
+uncultured bacteria,Marinimicrobia_(SAR406_clade),#d4ff00,146
+uncultured bacteria,MAT-CR-M4-B07,#6Edb7E,147
+uncultured bacteria,MBNT15,#D0D8Ad,148
+uncultured bacteria,Methylomirabilota,#57Cc25,149
+uncultured bacteria,Modulibacteria,#Dedb50,150
+uncultured bacteria,NB1-j,#Ccf04A,151
+uncultured bacteria,Nitrospinae,#Bce500,152
+uncultured bacteria,Nitrospinota,#Bce500,153
+uncultured bacteria,NKB15,#94Fa34,154
+uncultured bacteria,OLB16,#99Aa88,155
+uncultured bacteria,Oligoflexia,#F0F0F0,156
+uncultured bacteria,Omnitrophia,#Ccff66,157
+uncultured bacteria,Omnitrophica,#Ccff66,158
+uncultured bacteria,Omnitrophicaeota,#Ccff66,159
+uncultured bacteria,PAUC34f,#747F3F,160
+uncultured bacteria,Poribacteria,#556600,161
+uncultured bacteria,RCP2-54,#2Ade2A,162
+uncultured bacteria,Rokubacteria,#F2F0Da,163
+uncultured bacteria,Rs-K70_termite_group,#4Ecc4E,164
+uncultured bacteria,SAR324_clade(Marine_group_B),#B9F089,165
+uncultured bacteria,Schekmanbacteria,#F2Eb79,166
+uncultured bacteria,Sumerlaeota,#84Cc45,167
+uncultured bacteria,Sva0485,#Ccf233,168
+uncultured bacteria,TA06,#Ddddaa,169
+uncultured bacteria,TX1A-33,#4Fc452,170
+uncultured bacteria,UBA10030,#E5D800,171
+uncultured bacteria,UBA10199,#6D7073,172
+uncultured bacteria,UBA3054,#Fff770,173
+uncultured bacteria,UBA9089,#F2Eb79,174
+uncultured bacteria,UBP1,#A89E00,175
+uncultured bacteria,WPS-2,#72E500,176
+uncultured bacteria,WS1,#A87F00,177
+uncultured bacteria,WS2,#777755,178
+uncultured bacteria,WS4,#886611,179
+uncultured bacteria,Zixibacteria,#Ffdc70,180
+CPR,Berkelbacteria,#F28579,181
+CPR,Dojkabacteria,#F1C40F,182
+CPR,Falkowbacteria,#Ffd9B3,183
+CPR,Gracilibacteria,#7F463F,184
+CPR,Kazanbacteria,#Ff9933,185
+CPR,Kuenenbacteria,#F39C12,186
+CPR,Microgenomates,#992222,187
+CPR,Pacebacteria,#882211,188
+CPR,Paceibacteria,#A81100,189
+CPR,Parcubacteria,#661100,190
+CPR,Patescibacteria,#Ffb366,191
+CPR,Uhrbacteria,#E65C00,192
+CPR,Veblenbacteria,#F7Dc6F,193
+CPR,WOR-1,#F2D479,194

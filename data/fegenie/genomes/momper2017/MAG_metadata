@@ -1,0 +1,56 @@
+SURF Bin
+SURF_1 SURF_2 SURF_3 SURF_4 SURF_5 SURF_6 SURF_7 SURF_8 SURF_9 SURF_10 SURF_11 SURF_12 SURF_13 SURF_14 SURF_15 SURF_16 SURF_17 SURF_18 SURF_19 SURF_20 SURF_21 SURF_22 SURF_23 SURF_24 SURF_25 SURF_26 SURF_27 SURF_28 SURF_29 SURF_30 SURF_31 SURF_32 SURF_33 SURF_34 SURF_35 SURF_36 SURF_37 SURF_38 SURF_39 SURF_40 SURF_41 SURF_42 SURF_43 SURF_44 SURF_45 SURF_46 SURF_47 SURF_48 SURF_49 SURF_50 SURF_51 SURF_52 SURF_53 SURF_54 SURF_55 SURF_56 SURF_57 SURF_58 SURF_59 SURF_60 SURF_61 SURF_62 SURF_63 SURF_64 SURF_65 SURF_66 SURF_67 SURF_68
+Taxon
+Proteobacteria; Oxalobacter Ignavibacteriales
+Number Number scaffolds genes
+17 2253 114 3654 90 4281 197 5969 145 4482 58 2812 100 4680 183 4450 140 3190 78 3539 87 2653 192 3357 50 1774 105 3075 268 5070 118 3854 144 4105 10 1696 77 2392 106 4253 104 3392 46 1705 106 2771 173 4163 36 1480 105 2775 71 2067 117 2337 61 1573 84 2238 21 1047 155 3489 137 3507 108 2002 63 1502 101 2261 13 1017 14 774 79 2434 74 1662 18 804 143 2257 82 2131 34 1343 74 3041 25 1169 22 1501 108 2395 29 1300 104 2242 34 769 179 3873 40 1043 19 885 89 1892 24 810 35 931 6 1515 99 1631 75 3205 316 7377 64 1121 27 874 32 991 26 1363 120 2914 149 2911 149 4034
+Genome size Average (Mbp) completeness
+2.32 97.6 4.06 97.3 4.51 96.9 6.45 95.9 5.10 95.7 2.81 95.4 5.01 95.1 5.40 94.0 3.77 93.9 3.60 93.5 2.64 93.6 6.88 93.3 1.69 92.6 3.08 91.7 5.29 91.5 1.14 91.5 4.64 90.9 1.69 90.8 2.35 90.8 4.29 90.8 3.79 90.2 1.72 90.0 2.90 88.8 5.04 87.8 1.46 87.8 3.54 87.7 1.80 86.8 2.45 85.9 1.55 85.6 2.26 85.5 0.99 84.0 4.31 82.7 3.72 82.3 1.92 80.6 1.40 80.4 2.32 80.3 0.93 79.0 0.69 78.8 2.34 78.5 1.56 76.8 0.72 76.4 2.78 76.3 2.01 76.3 1.28 75.9 3.05 75.3 1.10 74.8 1.52 74.7 2.64 74.7 1.15 74.7 2.04 73.2 0.72 71.8 3.93 72.0 0.92 71.4 0.78 70.1 1.82 70.2 0.70 68.4 0.91 68.4 1.31 68.1 1.85 68.1 3.14 74.1 8.09 67.2 1.40 64.2 0.76 63.5 0.93 63.3 1.15 62.5 3.13 62.4 3.01 62.0 1.01 60.9
+s.d. of completeness
+Contamination
+        Proteobacteria;
+Proteobacteria;
+SURF-CP-1
+Actinobacteria
+Proteobacteria;
+Proteobacteria;
+Zixibacteria
+Proteobacteria;
+Nitrospirae; Nitrospiraceae Omnitrophica Gammaproteobacteria Proteobacteria; Deltaproteobacteria Proteobacteria; Desulfobacteraceae Proteobacteria; Desulfurivibrio SURF-CP-1
+OP3
+Actinobacteria; Gaiellales Proteobacteria; Commomonadacea Actinobacteria; OPB41 Tenericutes; Acholeplasma Nitrospirae; Nitrospiraceae Ignavibacteriales
+OP3
+SURF-CP-2
+Chloroflexi; Dehalococcoidia Ignavibacteriales
+WCHB1-60
+Chloroflexi; Anaerolineaceae Parcubacteria
+Planctomycetes; Phycisphaerales Proteobacteria; Desulfobacteraceae Proteobacteria; Deltaproteobacteria Nitrospirae; Nitrospiraceae Firmicutes
+Parcubacteria
+Parcubacteria
+Firmicutes; Dethiobacter Chloroflexi; Dehalococcoidia Parcubacteria
+Chloroflexi; Anaerolineaceae Chloroflexi; Dehalococcoidia Microgenomates
+Nitrospirae; Nitrospiraceae
+WWE3
+Actinobacteria
+Proteobacteria; Desulfobulbus Microgenomates
+Parcubacteria
+Parcubacteria
+Proteobacteria; Deltaproteobacteria Parcubacteria
+Parcubacteria
+Firmicutes; Ammonifex Parcubacteria
+Parcubacteria
+Woesearchaeota
+WS3
+Firmicutes; Desulforudis Proteobacteria; Desulfobacteraceae Parcubacteria
+Microgenomates
+Microgenomates
+Woesearchaeota
+Nitrospirae; Nitrospiraceae Proteobacteria; Desulfobacteraceae Chloroflexi; Anaerolineaceae
+2.1 3.5 3.4 4.5 3.8 5.4 3.4 7.2 3.0 4.3 4.3 8.3 3.8 3.9 5.4 5.8 4.0 4.4 3.2 5 1.8 4.2 2.4 4.7 3.7 3.4 1.5 6.6 8.9 3.6 3.3 5.2 4.7 3.7 3.3 1.3 5.6 3.8 2.5 4.6 4.3 2.8 2.3 4.5 5.3 2.9 3.5 6.1 4.3 1.4 3.7 5.4 2.4 1.9
+10.0 3 9.5 6 2.3 2.2
+11.5 0.6 12.8 4.4 3.0 3.2 7.9 3.8 7.3 1.3
+5.6 2
+9.9 0.7 11.3 0.6
+9.6 4 14.0 3.9 9.7 0.9 8.6 2.8 8.8 2.2 8.4 9.6 10.7 6.5
+12.2 2 10.8 2.9 6.8 2.8 16.3 5.7
+9.7 3 10.9 1.3 3.7 4.8 13.5 0.6 13.6 2.1 5.5 3.8 11.3 1.7 7.5 2.1 28.3 3.7 10.7 1.1 20.8 7.4 11.7 7.7 7.3 2.6 15.1 0.8 13.3 0.6 24.5 3.4 11.5 2.6 9.0 3.4 16.9 3.2

@@ -1,0 +1,176 @@
+site,date,category,gene_function,hits,genome,gene_counts,rel_hits
+D6,Oct 2013,iron_aquisition-heme_transport,HmuV-family-ATP-binding-protein,7,Momper2017,466302,0.0015011730595193673
+D6,Oct 2013,iron_aquisition-heme_transport,HmuY-substrate-binding-protein,1,Momper2017,466302,2.1445329421705244e-4
+D6,Oct 2013,iron_aquisition-iron_transport,FbpA-family-iron-binding-protein,3,Momper2017,466302,6.433598826511574e-4
+D6,Oct 2013,iron_aquisition-iron_transport,FbpB-FutB-family-iron-permease,4,Momper2017,466302,8.578131768682098e-4
+D6,Oct 2013,iron_aquisition-iron_transport,FeoA-family-iron-transporter,49,Momper2017,466302,0.010508211416635571
+D6,Oct 2013,iron_aquisition-iron_transport,FeoB-family-iron-transporter,56,Momper2017,466302,0.012009384476154938
+D6,Oct 2013,iron_aquisition-iron_transport,FeoE-family-iron-efflux,3,Momper2017,466302,6.433598826511574e-4
+D6,Oct 2013,iron_aquisition-iron_transport,FutA1-family-iron-binding-proteins,1,Momper2017,466302,2.1445329421705244e-4
+D6,Oct 2013,iron_aquisition-iron_transport,FutC-family-ATPase,1,Momper2017,466302,2.1445329421705244e-4
+D6,Oct 2013,iron_aquisition-iron_transport,YfeA-family-iron-binding-proteins,10,Momper2017,466302,0.002144532942170525
+D6,Oct 2013,iron_aquisition-iron_transport,YfeB-family-membrane-proteins,19,Momper2017,466302,0.004074612590123997
+D6,Oct 2013,iron_aquisition-iron_transport,Zip-family-zink-and-iron-uptake,5,Momper2017,466302,0.0010722664710852625
+D6,Oct 2013,iron_aquisition-siderophore_transport_potential,ExbB-family,59,Momper2017,466302,0.012652744358806095
+D6,Oct 2013,iron_aquisition-siderophore_transport_potential,ExbD-family,64,Momper2017,466302,0.013725010829891356
+D6,Oct 2013,iron_aquisition-siderophore_transport_potential,FpvC-family-siderophore-transport,4,Momper2017,466302,8.578131768682098e-4
+D6,Oct 2013,iron_aquisition-siderophore_transport_potential,FpvD-family-siderophore-transport,9,Momper2017,466302,0.0019300796479534723
+D6,Oct 2013,iron_aquisition-siderophore_transport_potential,FpvE-family-permease,40,Momper2017,466302,0.0085781317686821
+D6,Oct 2013,iron_aquisition-siderophore_transport_potential,HatD-family-substrate-binding-protein,28,Momper2017,466302,0.006004692238077469
+D6,Oct 2013,iron_aquisition-siderophore_transport_potential,LbtU-family-siderophore receptor,1,Momper2017,466302,2.1445329421705244e-4
+D6,Oct 2013,iron_aquisition-siderophore_transport_potential,PirA-family-siderophore-receptor,15,Momper2017,466302,0.003216799413255787
+D6,Oct 2013,iron_aquisition-siderophore_transport_potential,PiuA-family-siderophore-receptor,1,Momper2017,466302,2.1445329421705244e-4
+D6,Oct 2013,iron_aquisition-siderophore_transport_potential,PvdR-family-sideropore-export,22,Momper2017,466302,0.004717972472775154
+D6,Oct 2013,iron_aquisition-siderophore_transport_potential,PvdT-family-siderophore-export,30,Momper2017,466302,0.006433598826511574
+D6,Oct 2013,iron_aquisition-siderophore_transport_potential,PvuC-family-permease,1,Momper2017,466302,2.1445329421705244e-4
+D6,Oct 2013,iron_aquisition-siderophore_transport_potential,PvuCD-family-permease,4,Momper2017,466302,8.578131768682098e-4
+D6,Oct 2013,iron_aquisition-siderophore_transport_potential,PvuD-family-ATP-binding-protein,12,Momper2017,466302,0.0025734395306046295
+D6,Oct 2013,iron_aquisition-siderophore_transport_potential,PvuE-family-ATP-binding-protein,2,Momper2017,466302,4.289065884341049e-4
+D6,Oct 2013,iron_aquisition-siderophore_transport_potential,PvuE-family-permease,4,Momper2017,466302,8.578131768682098e-4
+D6,Oct 2013,iron_aquisition-siderophore_transport_potential,TonB-family,31,Momper2017,466302,0.0066480521207286265
+D6,Oct 2013,iron_gene_regulation,PF01325-Iron_dependent_repressor-dtxR_family_N,16,Momper2017,466302,0.003431252707472839
+D6,Oct 2013,iron_gene_regulation,PF01475-Iron_dependent_repressor-fur_family,161,Momper2017,466302,0.03452698036894545
+D6,Oct 2013,iron_gene_regulation,PF02742-Iron_dependent_repressor-dtxR_family_metal_binding_domain,66,Momper2017,466302,0.014153917418325465
+D6,Oct 2013,iron_gene_regulation,PF04773_FecR,99,Momper2017,466302,0.021230876127488196
+D6,Oct 2013,iron_gene_regulation,PF09012_sub-FeoC_like_transcriptional_regulator,7,Momper2017,466302,0.0015011730595193673
+D6,Oct 2013,iron_gene_regulation,Sid_PchR_pyochelin_regulator_Pseudomonas_aeruginosa_PA4227_180623,98,Momper2017,466302,0.021016422833271143
+D6,Oct 2013,iron_gene_regulation,Sid_PvdS_regulator_Paeruginosa_PA2426_180620,122,Momper2017,466302,0.0261633018944804
+D6,Oct 2013,iron_gene_regulation,Sid_YqjI_regulator_for_YqjH_P64588_Escherichia_coli_180606,29,Momper2017,466302,0.0062191455322945215
+D6,Oct 2013,iron_oxidation,Cyc2_repCluster1,1,Momper2017,466302,2.1445329421705244e-4
+D6,Oct 2013,iron_oxidation,Cyc2_repCluster2,3,Momper2017,466302,6.433598826511574e-4
+D6,Oct 2013,iron_oxidation,Cyc2_repCluster3,11,Momper2017,466302,0.002358986236387577
+D6,Oct 2013,iron_reduction,2514223671 filler {pc} c(7)-type cytochrome triheme domain-containing protein [Ignavibacterium album Mat9-16; JCM 16511 : NC_017464],2,Momper2017,466302,4.289065884341049e-4
+D6,Oct 2013,iron_reduction,2514223672 filler {porin} hypothetical protein [Ignavibacterium album Mat9-16; JCM 16511 : NC_017464],2,Momper2017,466302,4.289065884341049e-4
+D6,Oct 2013,iron_reduction,637127428 NP_953782 {omc} omcB polyheme membrane-associated cytochrome c [Geobacter sulfurreducens PCA: NC_002939],1,Momper2017,466302,2.1445329421705244e-4
+D6,Oct 2013,iron_reduction,637778192 YP_383880 {omc} hypothetical protein [Geobacter metallireducens GS-15: NC_007517],1,Momper2017,466302,2.1445329421705244e-4
+D6,Oct 2013,iron_reduction,642557019 CAJ74787 {porin} unknown protein [Kuenenia stuttgartiensis genome fragment KUST_E (5 of 5).: CT573071],3,Momper2017,466302,6.433598826511574e-4
+D6,Oct 2013,iron_reduction,642557020 CAJ74788 {pc} hypothetical multiheme cytochrome c protein [Kuenenia stuttgartiensis genome fragment KUST_E (5 of 5).: CT573071],3,Momper2017,466302,6.433598826511574e-4
+D6,Oct 2013,iron_reduction,646796949 YP_003639120 TherJR_0333 hypothetical protein [Thermincola sp. JR: NC_014152],17,Momper2017,466302,0.003645706001689892
+D6,Oct 2013,iron_reduction,646797728 YP_003639887 TherJR_1122 cytochrome C family protein [Thermincola sp. JR: NC_014152],6,Momper2017,466302,0.0012867197653023148
+D6,Oct 2013,iron_reduction,646799199 YP_003641333 TherJR_2595 hypothetical protein [Thermincola sp. JR: NC_014152],10,Momper2017,466302,0.002144532942170525
+D6,Oct 2013,iron_reduction,DFE_0449,1,Momper2017,466302,2.1445329421705244e-4
+D6,Oct 2013,iron_reduction,DFE_0450,1,Momper2017,466302,2.1445329421705244e-4
+D6,Oct 2013,iron_reduction,DFE_0451,1,Momper2017,466302,2.1445329421705244e-4
+D6,Oct 2013,iron_reduction,DFE_0461,5,Momper2017,466302,0.0010722664710852625
+D6,Oct 2013,iron_reduction,DFE_0462,3,Momper2017,466302,6.433598826511574e-4
+D6,Oct 2013,iron_reduction,DFE_0463,3,Momper2017,466302,6.433598826511574e-4
+D6,Oct 2013,iron_reduction,DFE_0464,1,Momper2017,466302,2.1445329421705244e-4
+D6,Oct 2013,iron_reduction,DFE_0465,1,Momper2017,466302,2.1445329421705244e-4
+D6,Oct 2013,iron_reduction,OmcF,1,Momper2017,466302,2.1445329421705244e-4
+D6,Oct 2013,iron_reduction,OmcS,9,Momper2017,466302,0.0019300796479534723
+D6,Oct 2013,iron_reduction,OmcZ,1,Momper2017,466302,2.1445329421705244e-4
+D6,Oct 2013,iron_storage,PF00210-Ferritin_like_domain,91,Momper2017,466302,0.019515249773751773
+D6,Oct 2013,iron_storage,PF13668_Ferritin_like_domain,55,Momper2017,466302,0.011794931181937886
+D6,Oct 2013,probable_iron_reduction,MtrC_TIGR03507,1,Momper2017,466302,2.1445329421705244e-4
+DuselD,Oct 2013,iron_aquisition-heme_transport,ChaN-family-substrate-binding-protein,2,metagenome,795040,2.5155966995371305e-4
+DuselD,Oct 2013,iron_aquisition-heme_transport,HmuV-family-ATP-binding-protein,22,metagenome,795040,0.002767156369490843
+DuselD,Oct 2013,iron_aquisition-heme_transport,TonB-family,3,metagenome,795040,3.7733950493056955e-4
+DuselD,Oct 2013,iron_aquisition-iron_transport,EfeU-family-iron-perease,2,metagenome,795040,2.5155966995371305e-4
+DuselD,Oct 2013,iron_aquisition-iron_transport,FbpA-family-iron-binding-protein,2,metagenome,795040,2.5155966995371305e-4
+DuselD,Oct 2013,iron_aquisition-iron_transport,FbpB-family-iron-permease,8,metagenome,795040,0.0010062386798148522
+DuselD,Oct 2013,iron_aquisition-iron_transport,FbpB-FutB-family-iron-permease,10,metagenome,795040,0.001257798349768565
+DuselD,Oct 2013,iron_aquisition-iron_transport,FbpC-family-ATPase,13,metagenome,795040,0.0016351378546991346
+DuselD,Oct 2013,iron_aquisition-iron_transport,FeoA-family-iron-transporter,67,metagenome,795040,0.008427248943449386
+DuselD,Oct 2013,iron_aquisition-iron_transport,FeoB-family-iron-transporter,76,metagenome,795040,0.009559267458241094
+DuselD,Oct 2013,iron_aquisition-iron_transport,FeoE-family-iron-efflux,8,metagenome,795040,0.0010062386798148522
+DuselD,Oct 2013,iron_aquisition-iron_transport,FutA1-family-iron-binding-proteins,3,metagenome,795040,3.7733950493056955e-4
+DuselD,Oct 2013,iron_aquisition-iron_transport,FutA2-family-iron-binding-proteins,1,metagenome,795040,1.2577983497685653e-4
+DuselD,Oct 2013,iron_aquisition-iron_transport,FutC-family-ATPase,4,metagenome,795040,5.031193399074261e-4
+DuselD,Oct 2013,iron_aquisition-iron_transport,Nramp-family-protein,3,metagenome,795040,3.7733950493056955e-4
+DuselD,Oct 2013,iron_aquisition-iron_transport,YfeA-family-iron-binding-proteins,28,metagenome,795040,0.0035218353793519826
+DuselD,Oct 2013,iron_aquisition-iron_transport,YfeB-family-membrane-proteins,46,metagenome,795040,0.0057858724089353995
+DuselD,Oct 2013,iron_aquisition-iron_transport,Zip-family-zink-and-iron-uptake,7,metagenome,795040,8.804588448379957e-4
+DuselD,Oct 2013,iron_aquisition-siderophore_synthesis,AsbC-family-siderophore-synthesis,1,metagenome,795040,1.2577983497685653e-4
+DuselD,Oct 2013,iron_aquisition-siderophore_synthesis,AsbD-family-siderophore-synthesis,1,metagenome,795040,1.2577983497685653e-4
+DuselD,Oct 2013,iron_aquisition-siderophore_synthesis,AsbE-family-siderophore-synthesis,1,metagenome,795040,1.2577983497685653e-4
+DuselD,Oct 2013,iron_aquisition-siderophore_synthesis,IucD-family-siderophore-synthesis,1,metagenome,795040,1.2577983497685653e-4
+DuselD,Oct 2013,iron_aquisition-siderophore_synthesis,PvsC-family-siderophore-synthesis,1,metagenome,795040,1.2577983497685653e-4
+DuselD,Oct 2013,iron_aquisition-siderophore_synthesis,PvsD-family-siderophore-synthesis,1,metagenome,795040,1.2577983497685653e-4
+DuselD,Oct 2013,iron_aquisition-siderophore_synthesis,RhbB-family-siderophore-synthesis,1,metagenome,795040,1.2577983497685653e-4
+DuselD,Oct 2013,iron_aquisition-siderophore_synthesis,RhbD-family-siderophore-synthesis,1,metagenome,795040,1.2577983497685653e-4
+DuselD,Oct 2013,iron_aquisition-siderophore_transport_potential,EntS-family-siderophore-export,7,metagenome,795040,8.804588448379957e-4
+DuselD,Oct 2013,iron_aquisition-siderophore_transport_potential,ExbB-family,160,metagenome,795040,0.02012477359629704
+DuselD,Oct 2013,iron_aquisition-siderophore_transport_potential,ExbD-family,169,metagenome,795040,0.02125679211108875
+DuselD,Oct 2013,iron_aquisition-siderophore_transport_potential,FptC-family-siderophore-transport,3,metagenome,795040,3.7733950493056955e-4
+DuselD,Oct 2013,iron_aquisition-siderophore_transport_potential,FptX-family-siderophore-transport,3,metagenome,795040,3.7733950493056955e-4
+DuselD,Oct 2013,iron_aquisition-siderophore_transport_potential,FpvC-family-siderophore-transport,17,metagenome,795040,0.0021382571946065606
+DuselD,Oct 2013,iron_aquisition-siderophore_transport_potential,FpvD-family-siderophore-transport,27,metagenome,795040,0.0033960555443751255
+DuselD,Oct 2013,iron_aquisition-siderophore_transport_potential,FpvE-family-permease,69,metagenome,795040,0.008678808613403099
+DuselD,Oct 2013,iron_aquisition-siderophore_transport_potential,FpvG-family-siderophore-transport,1,metagenome,795040,1.2577983497685653e-4
+DuselD,Oct 2013,iron_aquisition-siderophore_transport_potential,HatD-family-substrate-binding-protein,52,metagenome,795040,0.006540551418796539
+DuselD,Oct 2013,iron_aquisition-siderophore_transport_potential,IucA-family-iron-reductase,1,metagenome,795040,1.2577983497685653e-4
+DuselD,Oct 2013,iron_aquisition-siderophore_transport_potential,LbtU-family-siderophore receptor,2,metagenome,795040,2.5155966995371305e-4
+DuselD,Oct 2013,iron_aquisition-siderophore_transport_potential,LbtU-family-siderophore-receptor,1,metagenome,795040,1.2577983497685653e-4
+DuselD,Oct 2013,iron_aquisition-siderophore_transport_potential,PirA-family-siderophore-receptor,57,metagenome,795040,0.0071694505936808215
+DuselD,Oct 2013,iron_aquisition-siderophore_transport_potential,PiuA-family-siderophore-receptor,7,metagenome,795040,8.804588448379957e-4
+DuselD,Oct 2013,iron_aquisition-siderophore_transport_potential,PvdR-family-sideropore-export,47,metagenome,795040,0.005911652243912256
+DuselD,Oct 2013,iron_aquisition-siderophore_transport_potential,PvdT-family-siderophore-export,82,metagenome,795040,0.010313946468102235
+DuselD,Oct 2013,iron_aquisition-siderophore_transport_potential,PvuC-family-permease,1,metagenome,795040,1.2577983497685653e-4
+DuselD,Oct 2013,iron_aquisition-siderophore_transport_potential,PvuCD-family-permease,4,metagenome,795040,5.031193399074261e-4
+DuselD,Oct 2013,iron_aquisition-siderophore_transport_potential,PvuD-family-ATP-binding-protein,19,metagenome,795040,0.0023898168645602735
+DuselD,Oct 2013,iron_aquisition-siderophore_transport_potential,PvuE-family-ATP-binding-protein,2,metagenome,795040,2.5155966995371305e-4
+DuselD,Oct 2013,iron_aquisition-siderophore_transport_potential,TonB-family,97,metagenome,795040,0.012200643992755082
+DuselD,Oct 2013,iron_gene_regulation,PF01325-Iron_dependent_repressor-dtxR_family_N,25,metagenome,795040,0.0031444958744214126
+DuselD,Oct 2013,iron_gene_regulation,PF01475-Iron_dependent_repressor-fur_family,265,metagenome,795040,0.03333165626886698
+DuselD,Oct 2013,iron_gene_regulation,PF02742-Iron_dependent_repressor-dtxR_family_metal_binding_domain,119,metagenome,795040,0.014967800362245926
+DuselD,Oct 2013,iron_gene_regulation,PF04773_FecR,208,metagenome,795040,0.026162205675186154
+DuselD,Oct 2013,iron_gene_regulation,PF09012_sub-FeoC_like_transcriptional_regulator,10,metagenome,795040,0.001257798349768565
+DuselD,Oct 2013,iron_gene_regulation,Sid_PchR_pyochelin_regulator_Pseudomonas_aeruginosa_PA4227_180623,195,metagenome,795040,0.02452706782048702
+DuselD,Oct 2013,iron_gene_regulation,Sid_PvdS_regulator_Paeruginosa_PA2426_180620,213,metagenome,795040,0.02679110485007044
+DuselD,Oct 2013,iron_gene_regulation,Sid_YqjI_regulator_for_YqjH_P64588_Escherichia_coli_180606,42,metagenome,795040,0.005282753069027974
+DuselD,Oct 2013,iron_oxidation,Cyc2_repCluster1,4,metagenome,795040,5.031193399074261e-4
+DuselD,Oct 2013,iron_oxidation,Cyc2_repCluster2,1,metagenome,795040,1.2577983497685653e-4
+DuselD,Oct 2013,iron_oxidation,Cyc2_repCluster3,18,metagenome,795040,0.002264037029583417
+DuselD,Oct 2013,iron_oxidation,FoxE,3,metagenome,795040,3.7733950493056955e-4
+DuselD,Oct 2013,iron_reduction,2514223670 filler {omc} Geobacter sulfurreducens CxxxxCH...CXXCH domain-containing protein [Ignavibacterium album Mat9-16; JCM 16511 : NC_017464],5,metagenome,795040,6.288991748842825e-4
+DuselD,Oct 2013,iron_reduction,2514223671 filler {pc} c(7)-type cytochrome triheme domain-containing protein [Ignavibacterium album Mat9-16; JCM 16511 : NC_017464],6,metagenome,795040,7.546790098611391e-4
+DuselD,Oct 2013,iron_reduction,2514223672 filler {porin} hypothetical protein [Ignavibacterium album Mat9-16; JCM 16511 : NC_017464],6,metagenome,795040,7.546790098611391e-4
+DuselD,Oct 2013,iron_reduction,637127334 NP_953689 {porin} (extB) hypothetical protein [Geobacter sulfurreducens PCA: NC_002939],2,metagenome,795040,2.5155966995371305e-4
+DuselD,Oct 2013,iron_reduction,637127415 NP_953769 {omc} cytochrome c family protein [Geobacter sulfurreducens PCA: NC_002939],2,metagenome,795040,2.5155966995371305e-4
+DuselD,Oct 2013,iron_reduction,637127416 NP_953770 {pc} cytochrome c family protein [Geobacter sulfurreducens PCA: NC_002939],3,metagenome,795040,3.7733950493056955e-4
+DuselD,Oct 2013,iron_reduction,637127417 NP_953771 {porin} hypothetical protein [Geobacter sulfurreducens PCA: NC_002939],2,metagenome,795040,2.5155966995371305e-4
+DuselD,Oct 2013,iron_reduction,637127422 NP_953776 {omc} omcC polyheme membrane-associated cytochrome c [Geobacter sulfurreducens PCA: NC_002939],1,metagenome,795040,1.2577983497685653e-4
+DuselD,Oct 2013,iron_reduction,637127428 NP_953782 {omc} omcB polyheme membrane-associated cytochrome c [Geobacter sulfurreducens PCA: NC_002939],2,metagenome,795040,2.5155966995371305e-4
+DuselD,Oct 2013,iron_reduction,637127429 NP_953783 {pc} omaB cytochrome c family protein [Geobacter sulfurreducens PCA: NC_002939],2,metagenome,795040,2.5155966995371305e-4
+DuselD,Oct 2013,iron_reduction,637127430 NP_953784 {porin} ombB hypothetical protein [Geobacter sulfurreducens PCA: NC_002939],1,metagenome,795040,1.2577983497685653e-4
+DuselD,Oct 2013,iron_reduction,637778105 YP_383794 {pc} cytochrome c family protein [Geobacter metallireducens GS-15: NC_007517],1,metagenome,795040,1.2577983497685653e-4
+DuselD,Oct 2013,iron_reduction,637778187 YP_383875 {porin} hypothetical protein [Geobacter metallireducens GS-15: NC_007517],1,metagenome,795040,1.2577983497685653e-4
+DuselD,Oct 2013,iron_reduction,637778189 YP_383877 {omc} hypothetical protein [Geobacter metallireducens GS-15: NC_007517],1,metagenome,795040,1.2577983497685653e-4
+DuselD,Oct 2013,iron_reduction,637778190 YP_383878 {porin} hypothetical protein [Geobacter metallireducens GS-15: NC_007517],2,metagenome,795040,2.5155966995371305e-4
+DuselD,Oct 2013,iron_reduction,640548484 YP_001229767 {pc} hypothetical protein [Geobacter uraniumreducens Rf4: NC_009483],1,metagenome,795040,1.2577983497685653e-4
+DuselD,Oct 2013,iron_reduction,640548487 YP_001229770 {porin} hypothetical protein [Geobacter uraniumreducens Rf4: NC_009483],2,metagenome,795040,2.5155966995371305e-4
+DuselD,Oct 2013,iron_reduction,640548488 YP_001229771 {pc} hypothetical protein [Geobacter uraniumreducens Rf4: NC_009483],1,metagenome,795040,1.2577983497685653e-4
+DuselD,Oct 2013,iron_reduction,640549328 YP_001230600 {omc} cytochrome C family protein [Geobacter uraniumreducens Rf4: NC_009483],1,metagenome,795040,1.2577983497685653e-4
+DuselD,Oct 2013,iron_reduction,640549330 YP_001230602 {porin} hypothetical protein [Geobacter uraniumreducens Rf4: NC_009483],1,metagenome,795040,1.2577983497685653e-4
+DuselD,Oct 2013,iron_reduction,642557019 CAJ74787 {porin} unknown protein [Kuenenia stuttgartiensis genome fragment KUST_E (5 of 5).: CT573071],1,metagenome,795040,1.2577983497685653e-4
+DuselD,Oct 2013,iron_reduction,642557020 CAJ74788 {pc} hypothetical multiheme cytochrome c protein [Kuenenia stuttgartiensis genome fragment KUST_E (5 of 5).: CT573071],1,metagenome,795040,1.2577983497685653e-4
+DuselD,Oct 2013,iron_reduction,642677709 YP_001952529 {porin} hypothetical protein [Geobacter lovleyi SZ: NC_010814],1,metagenome,795040,1.2577983497685653e-4
+DuselD,Oct 2013,iron_reduction,642769371 YP_002140171 {pc} hypothetical protein [Geobacter bemidjiensis Bem: NC_011146],1,metagenome,795040,1.2577983497685653e-4
+DuselD,Oct 2013,iron_reduction,643596352 YP_002493935 {pc} hypothetical protein [Anaeromyxobacter dehalogenans 2CP-1: NC_011891],1,metagenome,795040,1.2577983497685653e-4
+DuselD,Oct 2013,iron_reduction,643638979 YP_002537144 {pc} hypothetical protein [Geobacter sp. FRC-32: NC_011979],1,metagenome,795040,1.2577983497685653e-4
+DuselD,Oct 2013,iron_reduction,643638980 YP_002537145 {omc} hypothetical protein [Geobacter sp. FRC-32: NC_011979],1,metagenome,795040,1.2577983497685653e-4
+DuselD,Oct 2013,iron_reduction,646796949 YP_003639120 TherJR_0333 hypothetical protein [Thermincola sp. JR: NC_014152],3,metagenome,795040,3.7733950493056955e-4
+DuselD,Oct 2013,iron_reduction,646797728 YP_003639887 TherJR_1122 cytochrome C family protein [Thermincola sp. JR: NC_014152],1,metagenome,795040,1.2577983497685653e-4
+DuselD,Oct 2013,iron_reduction,646799199 YP_003641333 TherJR_2595 hypothetical protein [Thermincola sp. JR: NC_014152],25,metagenome,795040,0.0031444958744214126
+DuselD,Oct 2013,iron_reduction,646847494 YP_003691556 {omc} hypothetical protein [Desulfurivibrio alkaliphilus AHT2 chromosome: NC_014216],1,metagenome,795040,1.2577983497685653e-4
+DuselD,Oct 2013,iron_reduction,649844784 YP_004113752 {pc} hypothetical protein [Desulfurispirillum indicum S5 chromosome: NC_014836],1,metagenome,795040,1.2577983497685653e-4
+DuselD,Oct 2013,iron_reduction,649844785 YP_004113753 (porin} hypothetical protein [Desulfurispirillum indicum S5 chromosome: NC_014836],1,metagenome,795040,1.2577983497685653e-4
+DuselD,Oct 2013,iron_reduction,649931661 YP_004200172 {pc} cytochrome c family protein [Geobacter sp. M18 chromosome: NC_014973],4,metagenome,795040,5.031193399074261e-4
+DuselD,Oct 2013,iron_reduction,649931662 YP_004200173 {porin} hypothetical protein [Geobacter sp. M18 chromosome: NC_014973],4,metagenome,795040,5.031193399074261e-4
+DuselD,Oct 2013,iron_reduction,DFE_0448,2,metagenome,795040,2.5155966995371305e-4
+DuselD,Oct 2013,iron_reduction,DFE_0449,2,metagenome,795040,2.5155966995371305e-4
+DuselD,Oct 2013,iron_reduction,DFE_0451,2,metagenome,795040,2.5155966995371305e-4
+DuselD,Oct 2013,iron_reduction,DFE_0461,16,metagenome,795040,0.0020124773596297044
+DuselD,Oct 2013,iron_reduction,DFE_0462,18,metagenome,795040,0.002264037029583417
+DuselD,Oct 2013,iron_reduction,DFE_0463,11,metagenome,795040,0.0013835781847454215
+DuselD,Oct 2013,iron_reduction,DFE_0464,11,metagenome,795040,0.0013835781847454215
+DuselD,Oct 2013,iron_reduction,DFE_0465,4,metagenome,795040,5.031193399074261e-4
+DuselD,Oct 2013,iron_reduction,OmcF,6,metagenome,795040,7.546790098611391e-4
+DuselD,Oct 2013,iron_reduction,OmcS,26,metagenome,795040,0.0032702757093982693
+DuselD,Oct 2013,iron_reduction,OmcZ,3,metagenome,795040,3.7733950493056955e-4
+DuselD,Oct 2013,iron_reduction,t4ap,1,metagenome,795040,1.2577983497685653e-4
+DuselD,Oct 2013,iron_storage,PF00210-Ferritin_like_domain,148,metagenome,795040,0.018615415576574763
+DuselD,Oct 2013,iron_storage,PF13668_Ferritin_like_domain,79,metagenome,795040,0.009936606963171665
+DuselD,Oct 2013,possible_iron_oxidation_and_possible_iron_reduction,MtoA,4,metagenome,795040,5.031193399074261e-4
+DuselD,Oct 2013,possible_iron_oxidation_and_possible_iron_reduction,MtrB_TIGR03509,4,metagenome,795040,5.031193399074261e-4
+DuselD,Oct 2013,probable_iron_reduction,MtrC_TIGR03507,3,metagenome,795040,3.7733950493056955e-4

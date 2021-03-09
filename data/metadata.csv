@@ -1,0 +1,546 @@
+site,genome,Completeness,Contamination,Phylum
+D1,1,97.64,4.37,Proteobacteria
+D1,2,93.36,7.09,Proteobacteria
+D1,3,84.94,2.06,NA
+D1,4,79.35,0.96,Proteobacteria
+D1,5,78.62,5.53,Proteobacteria
+D1,6,76.3,0,Candidatus Desantisbacteria
+D1,7,73.36,0.47,Candidatus Woesearchaeota
+D1,8,64.8,0.93,Candidatus Woesearchaeota
+D1,9,62.35,9.68,Candidatus Omnitrophica
+D1,10,61.93,1.12,Proteobacteria
+D1,11,59.8,0,Candidatus Uhrbacteria
+D1,12,58.68,9.02,Proteobacteria
+D1,13,58.15,1.26,Proteobacteria
+D1,14,49.82,9.34,Candidatus Desantisbacteria
+D1,15,48.68,1.54,Proteobacteria
+D1,16,44.06,10.66,Candidatus Kuenenbacteria
+D1,17,43.19,0,Nitrospirae
+D1,18,39.32,2.7,Candidatus Pacebacteria
+D1,19,37.78,1.01,Chlamydiae
+D1,20,31.1,0.61,Proteobacteria
+D1,21,29.94,3.25,Proteobacteria
+D1,22,29.65,0,Candidatus Pacebacteria
+D1,23,26.62,0,Candidatus Uhrbacteria
+D1,24,24.4,0.92,Euryarchaeota
+D1,25,20.6,0.93,Candidatus Micrarchaeota
+D2,1,99.48,0.57,Proteobacteria
+D2,2,97.73,1.7,Planctomycetes
+D2,3,97.27,2.78,Nitrospirae
+D2,4,96.7,1.64,Bacteroidetes
+D2,5,95.16,1.68,Candidatus Omnitrophica
+D2,6,93.89,1.1,candidate division Zixibacteria
+D2,7,93.46,0,Candidatus Micrarchaeota
+D2,8,92.44,1.01,Proteobacteria
+D2,9,90.34,5.68,Planctomycetes
+D2,10,87.42,0.65,Proteobacteria
+D2,11,86.84,5.11,Candidatus Omnitrophica
+D2,12,86.57,9.51,Nitrospirae
+D2,13,86.57,0.96,Nitrospirae
+D2,14,86.14,0,Candidatus Micrarchaeota
+D2,15,82.71,0,Candidatus Woesearchaeota
+D2,16,81.98,2.96,Proteobacteria
+D2,17,78.95,1.75,Proteobacteria
+D2,18,78.58,2.61,Ignavibacteriae
+D2,19,76.7,0,Candidatus Pacebacteria
+D2,20,75.38,5.38,Candidatus Omnitrophica
+D2,21,73.36,1.87,Candidatus Micrarchaeota
+D2,22,72.37,1.55,Ignavibacteriae
+D2,23,71.1,0,Candidatus Veblenbacteria
+D2,24,70.79,0,Proteobacteria
+D2,25,69.82,1.85,Candidatus Berkelbacteria
+D2,26,68.69,0,Candidatus Micrarchaeota
+D2,27,68.32,0.99,Candidatus Uhrbacteria
+D2,28,67.84,0.54,Planctomycetes
+D2,29,67.13,1.98,Candidatus Falkowbacteria
+D2,30,66.53,0,Nanoarchaeota
+D2,31,65.75,1.94,Proteobacteria
+D2,32,64.85,2.58,Proteobacteria
+D2,33,64.69,0.54,Candidatus Omnitrophica
+D2,34,63.91,0.95,Proteobacteria
+D2,35,63.32,0,Candidatus Microgenomates
+D2,36,62.95,1.1,Calditrichaeota
+D2,37,62.26,0,candidate division Zixibacteria
+D2,38,60.2,2.87,Candidatus Pacebacteria
+D2,39,59.84,3.3,candidate division Zixibacteria
+D2,40,59.83,0,Candidatus Omnitrophica
+D2,41,59.5,0.99,Candidatus Kuenenbacteria
+D2,42,59.17,2.18,Candidatus Woesearchaeota
+D2,43,57.85,1.6,Euryarchaeota
+D2,44,57.7,0,Candidatus Omnitrophica
+D2,45,57.19,0,Proteobacteria
+D2,46,55.17,3.45,Proteobacteria
+D2,47,55.08,7.78,Nitrospirae
+D2,48,53.64,0,Candidatus Falkowbacteria
+D2,49,53.16,0,Candidatus Omnitrophica
+D2,50,52.57,0.93,Candidatus Micrarchaeota
+D2,51,52.36,4.77,Proteobacteria
+D2,52,51.45,0,Candidatus Microgenomates
+D2,53,50.93,0,Proteobacteria
+D2,54,50.86,0,Proteobacteria
+D2,55,50.01,0.85,Candidatus Pacebacteria
+D2,56,49.92,6.02,Ignavibacteriae
+D2,57,49.39,8.82,Acidobacteria
+D2,58,47.54,2.2,Candidatus Latescibacteria
+D2,59,46.71,0,Candidatus Omnitrophica
+D2,60,45.54,1.85,Candidatus Pacebacteria
+D2,61,44.87,0.99,Candidatus Berkelbacteria
+D2,62,44.44,3.45,Candidatus Pacebacteria
+D2,63,44.17,0,Proteobacteria
+D2,64,43.61,9.24,Proteobacteria
+D2,65,42.47,3.39,Proteobacteria
+D2,66,41.38,0,Candidatus Omnitrophica
+D2,67,39.83,0,Ignavibacteriae
+D2,68,39.66,0,Candidatus Omnitrophica
+D2,69,39.13,0,Candidatus Micrarchaeota
+D2,70,38.79,0,NA
+D2,71,38.27,3.99,Candidatus Pacebacteria
+D2,72,37.88,8.24,Candidatus Omnitrophica
+D2,73,37.18,0.91,Nitrospirae
+D2,74,36.23,1.72,candidate division Zixibacteria
+D2,75,34.84,1.49,Candidatus Microgenomates
+D2,76,33.82,1.72,Proteobacteria
+D2,77,31.78,0,Nanoarchaeota
+D2,78,31.15,2.42,Candidatus Pacebacteria
+D2,79,29.51,5.85,Candidatus Eisenbacteria
+D2,80,28.32,1.14,NA
+D2,81,26.3,5.27,NA
+D2,82,26.24,0.99,NA
+D2,83,24.11,0,NA
+D2,84,23.17,2.98,NA
+D2,85,22.34,0,NA
+D2,86,21.99,0,NA
+D2,87,20.69,0,NA
+D2,88,20.47,0,NA
+D2,89,20.35,1,NA
+D2,90,19.09,0,NA
+D2,91,18.69,0,NA
+D2,92,16.79,0,NA
+D2,93,16.55,1.1,NA
+D2,94,15.81,0,NA
+D2,97,15.18,0,NA
+D3,1,100,0,Candidatus Edwardsbacteria
+D3,2,98.9,0.55,Calditrichaeota
+D3,3,98.9,4.95,candidate division Zixibacteria
+D3,4,98.88,0.56,Ignavibacteriae
+D3,5,96.77,3.41,Bacteroidetes
+D3,6,96.37,1.12,Ignavibacteriae
+D3,7,95.51,2.25,Candidatus Goldbacteria
+D3,8,95.38,1.82,Nitrospirae
+D3,9,94.81,2.73,Ignavibacteriae
+D3,10,94.38,0,Spirochaetes
+D3,11,93.97,2.59,Actinobacteria
+D3,12,93.46,0.87,Proteobacteria
+D3,13,93.22,0,Candidatus Micrarchaeota
+D3,14,93.15,1.51,Proteobacteria
+D3,15,92.69,2.21,Candidatus Omnitrophica
+D3,16,92.26,6.96,Proteobacteria
+D3,17,92.1,1.08,Candidatus Omnitrophica
+D3,18,91.06,0,Actinobacteria
+D3,19,87.39,3.23,Candidatus Omnitrophica
+D3,20,84.81,0,Candidatus Woesearchaeota
+D3,21,84.78,3.3,candidate division Zixibacteria
+D3,22,83.52,0.55,Candidatus Eisenbacteria
+D3,23,82.94,0.93,Candidatus Micrarchaeota
+D3,24,78.19,1.87,Candidatus Micrarchaeota
+D3,25,78.04,1.87,Candidatus Micrarchaeota
+D3,26,76.18,0.91,Nitrospirae
+D3,27,75.74,0,Candidatus Woesearchaeota
+D3,28,75.55,7.76,Candidatus Microgenomates
+D3,29,72.73,2.91,Chloroflexi
+D3,30,72.67,0.45,Nitrospirae
+D3,31,72.03,2.26,Proteobacteria
+D3,32,71.96,0.97,Proteobacteria
+D3,33,70.79,0.93,Candidatus Micrarchaeota
+D3,34,69.31,0,Candidatus Uhrbacteria
+D3,35,68.22,0.93,Candidatus Woesearchaeota
+D3,36,67.82,2.97,Candidatus Uhrbacteria
+D3,37,67.69,0,Candidatus Woesearchaeota
+D3,38,67.42,5.56,Candidatus Gracilibacteria
+D3,39,66.46,0,Euryarchaeota
+D3,40,65.97,2.8,Candidatus Woesearchaeota
+D3,41,65.45,8.38,Chloroflexi
+D3,42,65.35,0,Candidatus Uhrbacteria
+D3,43,64.69,1.71,Candidatus Margulisbacteria
+D3,44,64.17,1.08,Candidatus Omnitrophica
+D3,45,63,1.14,Planctomycetes
+D3,46,62.48,3.75,Candidatus Pacebacteria
+D3,47,62.25,1.86,Candidatus Margulisbacteria
+D3,48,61.37,9.97,Candidatus Omnitrophica
+D3,49,61.29,2.45,Elusimicrobia
+D3,50,60.69,3.08,Candidatus Microgenomates
+D3,51,57.27,7.73,Chloroflexi
+D3,52,56.79,0,Planctomycetes
+D3,53,56.36,0.18,Chloroflexi
+D3,54,54.76,0,Candidatus Microgenomates
+D3,55,52.33,1.83,Proteobacteria
+D3,56,51.65,5.83,Fusobacteria
+D3,57,51.31,0.99,Candidatus Microgenomates
+D3,58,50.54,0,Candidatus Pacebacteria
+D3,59,50,0,Chloroflexi
+D3,60,49.78,0.09,Actinobacteria
+D3,61,49.61,0.86,unclassified
+D3,62,48.89,0.6,Proteobacteria
+D3,63,48.1,4.17,Candidatus Gracilibacteria
+D3,64,46.11,2.73,Candidatus Pacebacteria
+D3,65,43.88,2.05,Firmicutes
+D3,66,42.11,2.27,Planctomycetes
+D3,67,40.89,1.71,Candidatus Pacebacteria
+D3,68,40.28,4.72,Planctomycetes
+D3,69,39.6,0.11,Candidatus Veblenbacteria
+D3,70,39.17,0,Candidatus Micrarchaeota
+D3,71,39.01,0,Candidatus Desantisbacteria
+D3,72,35.15,0,Candidatus Microgenomates
+D3,73,34.02,0,Elusimicrobia
+D3,74,33.65,4.95,Firmicutes
+D3,75,28.34,0.15,NA
+D3,76,28.02,4.8,NA
+D3,77,27.97,1.14,NA
+D3,78,27.94,0,NA
+D3,79,27.03,1.81,NA
+D3,80,26.56,1.68,NA
+D3,81,25.99,0.55,NA
+D3,82,25.16,0,NA
+D3,83,24.22,0,NA
+D3,84,24.14,0.91,NA
+D3,85,23.66,0.18,NA
+D3,86,22.81,1.75,NA
+D3,87,22.49,0,NA
+D3,88,22.41,0,NA
+D3,89,22.02,1.72,NA
+D3,90,20.41,0,NA
+D3,91,20.41,3.2,NA
+D4,1,96.95,0.29,Proteobacteria
+D4,2,96.24,1.08,Bacteroidetes
+D4,3,95.99,1.45,Proteobacteria
+D4,4,93.13,1.64,Ignavibacteriae
+D4,5,92.4,6.67,Ignavibacteriae
+D4,6,86.81,0,Gemmatimonadetes
+D4,7,82.91,1.61,Candidatus Omnitrophica
+D4,8,80.39,1.32,Proteobacteria
+D4,9,77.93,10.4,Euryarchaeota
+D4,10,77.74,1.12,Candidatus Desantisbacteria
+D4,11,77.17,2.12,Nitrospirae
+D4,12,73.12,3.56,Proteobacteria
+D4,13,69.25,0.76,Proteobacteria
+D4,14,68.27,1.08,Candidatus Omnitrophica
+D4,15,68.23,1.08,Candidatus Omnitrophica
+D4,16,64.81,1.2,Planctomycetes
+D4,17,62.76,2.76,Proteobacteria
+D4,18,62.31,2.46,Proteobacteria
+D4,19,60.41,5.57,Proteobacteria
+D4,20,57.03,0.99,Candidatus Kuenenbacteria
+D4,21,56.73,0.99,Candidatus Pacebacteria
+D4,22,54.62,0,Candidatus Parcubacteria
+D4,23,54.21,0,Candidatus Pacebacteria
+D4,24,51.72,0,Proteobacteria
+D4,25,50.86,0,Proteobacteria
+D4,26,47.84,7.27,Actinobacteria
+D4,27,47.14,0,Euryarchaeota
+D4,28,45.84,0,Euryarchaeota
+D4,29,44.44,0.9,Euryarchaeota
+D4,30,42.05,6.45,Proteobacteria
+D4,31,40.83,2.13,Elusimicrobia
+D4,32,39.48,1.39,Candidatus Pacebacteria
+D4,33,34.75,0,Nitrospirae
+D4,34,32.71,0,Euryarchaeota
+D4,35,29.73,4.46,Candidatus Pacebacteria
+D4,36,29.32,9.26,Candidatus Kuenenbacteria
+D4,37,29.31,0,Proteobacteria
+D4,38,28.93,3.45,Proteobacteria
+D4,39,28.45,0,Proteobacteria
+D4,40,23.35,0,Chloroflexi
+D4,41,20.61,0,Proteobacteria
+D5,1,100,0.91,Nitrospirae
+D5,2,97.4,1.76,Proteobacteria
+D5,3,97.15,0.32,Firmicutes
+D5,4,93.6,1.35,Bacteroidetes
+D5,5,93.36,2.14,Actinobacteria
+D5,6,92.23,2.33,Ignavibacteriae
+D5,7,91.61,2.77,Firmicutes
+D5,8,84.62,0,Gemmatimonadetes
+D5,9,84.46,0.06,Candidatus Omnitrophica
+D5,10,79.15,6.2,NA
+D5,11,78.12,15.88,Nitrospirae
+D5,12,77.44,3.41,Planctomycetes
+D5,13,75.84,2.17,Proteobacteria
+D5,14,75.45,4.3,Candidatus Omnitrophica
+D5,15,74.95,8.06,Candidatus Omnitrophica
+D5,16,74.58,2.16,Candidatus Bipolaricaulota
+D5,17,73.26,2.4,Euryarchaeota
+D5,18,72.7,3.45,Candidatus Pacebacteria
+D5,19,71.2,4.35,Proteobacteria
+D5,20,70.62,13.74,Candidatus Omnitrophica
+D5,21,68.15,0,Candidatus Parcubacteria
+D5,22,67.77,1,Candidatus Pacebacteria
+D5,23,67.09,8.89,Proteobacteria
+D5,24,66.97,10.44,Proteobacteria
+D5,25,66.84,1.08,Candidatus Omnitrophica
+D5,26,65.88,0.81,Proteobacteria
+D5,27,65.32,2.03,Verrucomicrobia
+D5,28,63.76,19.22,Proteobacteria
+D5,29,63.67,7.95,Proteobacteria
+D5,30,56.33,0.28,Candidatus Latescibacteria
+D5,31,54.28,4.52,Candidatus Pacebacteria
+D5,32,50.7,10.28,Euryarchaeota
+D5,33,49.82,9.34,Candidatus Desantisbacteria
+D5,34,45.28,9.15,Nitrospirae
+D5,35,43.77,3.76,Proteobacteria
+D5,36,41.69,1.87,Firmicutes
+D5,37,41.15,1.23,Candidatus Pacebacteria
+D5,38,36.94,0.08,Firmicutes
+D5,39,36.58,3.37,Elusimicrobia
+D5,40,36.36,7.76,Proteobacteria
+D5,41,33.99,3.06,Candidatus Pacebacteria
+D5,42,32.7,0,Elusimicrobia
+D5,43,32.28,0.46,Candidatus Pacebacteria
+D5,44,31.67,2.69,Euryarchaeota
+D5,45,30.57,4.63,NA
+D5,46,30.23,0,NA
+D5,47,29.29,1.97,NA
+D5,48,29.19,0.96,NA
+D5,49,28.67,1.72,NA
+D5,50,25.31,0.84,NA
+D5,51,25.23,0.93,NA
+D5,52,25.22,2.69,NA
+D5,53,21.93,0.82,NA
+D6,1,98.92,1.08,Planctomycetes
+D6,2,98.88,0.56,Ignavibacteriae
+D6,3,98.88,1.68,Ignavibacteriae
+D6,4,98.88,5.72,Candidatus Omnitrophica
+D6,5,98.86,2.15,Verrucomicrobia
+D6,6,98.71,4.19,Proteobacteria
+D6,7,98.67,0.89,Firmicutes
+D6,8,97.86,0.85,Actinobacteria
+D6,9,97.31,1.08,Bacteroidetes
+D6,10,96.37,1.12,Ignavibacteriae
+D6,11,96.36,2.91,Chloroflexi
+D6,12,95.48,1.94,Proteobacteria
+D6,13,95.32,2.26,Proteobacteria
+D6,14,94.38,0.19,Spirochaetes
+D6,15,92.73,1.82,Chloroflexi
+D6,16,92.73,5.91,Chloroflexi
+D6,17,92.72,5.05,Proteobacteria
+D6,18,92.56,0.81,NA
+D6,19,91.38,1.27,Firmicutes
+D6,20,91.02,4.77,Proteobacteria
+D6,21,90.66,1.29,Proteobacteria
+D6,22,90.59,3.7,Armatimonadetes
+D6,23,89.36,1.08,Candidatus Omnitrophica
+D6,24,89.09,1.79,Firmicutes
+D6,25,88.14,2.82,Firmicutes
+D6,26,88.11,1.08,Candidatus Omnitrophica
+D6,27,87.27,3.82,Chloroflexi
+D6,28,86.83,0.56,Ignavibacteriae
+D6,29,85.35,0.11,Ignavibacteriae
+D6,30,83.39,2.67,NA
+D6,31,83.24,3.3,Candidatus Latescibacteria
+D6,32,83.2,9.23,Proteobacteria
+D6,33,82.73,5.76,Chloroflexi
+D6,34,82.2,1.13,Firmicutes
+D6,35,80.95,1.28,Chlorobi
+D6,36,80.51,0,Firmicutes
+D6,37,78.05,0.99,Chloroflexi
+D6,38,77.9,0,Candidatus Pacebacteria
+D6,39,76.57,0.16,Candidatus Microgenomates
+D6,40,76,2.63,Proteobacteria
+D6,41,75.66,2.25,Candidatus Pacebacteria
+D6,42,74.63,0,Gemmatimonadetes
+D6,43,72.73,2.91,Chloroflexi
+D6,44,68.81,3.45,candidate division WWE3
+D6,45,67.27,2.27,Chloroflexi
+D6,46,65.45,8.38,Chloroflexi
+D6,47,64.76,0,Candidatus Parcubacteria
+D6,47,64.76,0,Candidatus Parcubacteria
+D6,48,64.74,1.1,candidate division Zixibacteria
+D6,49,64.24,0.47,Firmicutes
+D6,50,63.43,0,Candidatus Microgenomates
+D6,51,61.29,2.45,Firmicutes
+D6,52,60.21,2.58,Proteobacteria
+D6,53,60.13,0.5,Proteobacteria
+D6,54,58.91,0,Candidatus Microgenomates
+D6,55,58.77,0.54,Bacteroidetes
+D6,56,57.27,7.73,Chloroflexi
+D6,57,56.9,0,Candidatus Microgenomates
+D6,58,53.68,0,Planctomycetes
+D6,59,53.56,0,Candidatus Microgenomates
+D6,60,52.88,1.44,Chloroflexi
+D6,61,56.36,0.18,Chloroflexi
+D6,62,52.31,1.49,Firmicutes
+D6,63,51.49,0,Candidatus Microgenomates
+D6,64,51,4.09,Proteobacteria
+D6,65,50.02,0.56,Elusimicrobia
+D6,66,50,0,Chloroflexi
+D6,67,49.11,0,Proteobacteria
+D6,68,48.89,0.6,Proteobacteria
+D6,69,48.16,0.91,Chloroflexi
+D6,70,46.55,5.17,Chloroflexi
+D6,71,43.88,2.05,Firmicutes
+D6,72,41.27,0,Proteobacteria
+D6,73,40.28,4.72,Planctomycetes
+D6,74,40.24,2.73,Chloroflexi
+D6,75,39.2,0.6,Proteobacteria
+D6,76,34.4,1.72,Candidatus Pacebacteria
+D6,77,33.65,4.95,Firmicutes
+D6,78,33.33,0.1,Candidatus Microgenomates
+D6,79,33.31,0.78,Proteobacteria
+D6,80,33.13,0.49,Firmicutes
+D6,81,32.52,0,Candidatus Bipolaricaulota
+D6,82,32.05,0,Firmicutes
+D6,83,31.88,0,Chloroflexi
+D6,84,31.15,0,Proteobacteria
+D6,85,30.09,0,Chloroflexi
+D6,86,29.62,0,Ignavibacteriae
+D6,87,29.53,2.21,Chloroflexi
+SW,1,99.15,0.82,Proteobacteria
+SW,2,98.9,0,Proteobacteria
+SW,3,97.8,0,Proteobacteria
+SW,4,97.44,4.84,Candidatus Melainabacteria
+SW,5,97.44,3.56,Candidatus Melainabacteria
+SW,6,97.12,0.48,Bacteroidetes
+SW,7,96.96,2.03,Chlamydiae
+SW,8,95.95,0.48,Bacteroidetes
+SW,9,95.73,0.57,Candidatus Melainabacteria
+SW,10,95.69,2.59,Proteobacteria
+SW,11,95.27,4.73,Chlamydiae
+SW,12,94.87,0,Candidatus Melainabacteria
+SW,13,94.26,0.68,Chlamydiae
+SW,14,94.19,1.16,Proteobacteria
+SW,15,94.1,0.95,Proteobacteria
+SW,16,92.89,3.08,Proteobacteria
+SW,17,89.75,0.14,Proteobacteria
+SW,18,89.71,3.04,Chlamydiae
+SW,19,87.36,1.72,Proteobacteria
+SW,20,87.18,1.42,Candidatus Melainabacteria
+SW,21,87.07,8.06,Candidatus Melainabacteria
+SW,22,85.89,0,Candidatus Pacebacteria
+SW,22,85.89,0,unclassified
+SW,23,85.39,0,unclassified
+SW,24,84.8,0.59,Proteobacteria
+SW,25,83.91,0.96,Proteobacteria
+SW,26,83.76,2.05,Candidatus Uhrbacteria
+SW,26,83.76,2.05,Proteobacteria
+SW,27,83.63,0.97,NA
+SW,28,83.31,2.19,Chlamydiae
+SW,29,83.11,1.82,Chlorobi
+SW,30,82.51,5.36,Proteobacteria
+SW,31,77.59,0,Proteobacteria
+SW,32,74.46,2.15,Proteobacteria
+SW,33,73.23,0.88,Proteobacteria
+SW,34,71.81,0,Candidatus Pacebacteria
+SW,35,70.69,0,Bacteroidetes
+SW,36,70.57,4.55,Nitrospirae
+SW,37,68.74,2.27,Planctomycetes
+SW,38,67.7,5.62,Planctomycetes
+SW,39,66.17,5.17,Proteobacteria
+SW,40,64.88,1.95,Chlamydiae
+SW,41,64.47,0.55,unclassified
+SW,42,62.78,0.26,Proteobacteria
+SW,43,62.58,1.15,NA
+SW,44,62.28,0,unclassified
+SW,45,61.93,1.14,Planctomycetes
+SW,46,61.15,0.68,Proteobacteria
+SW,47,60.34,0,Proteobacteria
+SW,48,59.52,0.48,Bacteroidetes
+SW,49,59.13,0,unclassified
+SW,50,57.73,0,Proteobacteria
+SW,51,57.25,8.83,Proteobacteria
+SW,52,57.01,1.22,Bacteroidetes
+SW,53,56.9,0,Proteobacteria
+SW,54,56.73,1.69,NA
+SW,55,56.71,1.02,NA
+SW,56,55.86,2.61,NA
+SW,57,55.17,3.45,Proteobacteria
+SW,58,55.07,0,Acidobacteria
+SW,59,54.62,0.84,Candidatus Dadabacteria
+SW,60,54.41,1.82,Proteobacteria
+SW,61,51.93,1.41,Proteobacteria
+SW,62,50.06,1.49,Planctomycetes
+SW,63,48.27,0.98,Proteobacteria
+SW,64,47.65,9.2,Planctomycetes
+SW,65,46.55,5.17,Proteobacteria
+SW,66,45.27,4.29,Bacteroidetes
+SW,67,42.3,0,Proteobacteria
+SW,68,41.98,0.14,NA
+SW,69,40,1.72,Proteobacteria
+SW,70,39.69,2.7,Verrucomicrobia
+SW,71,39.64,2.88,unclassified
+SW,72,38.97,6.03,Proteobacteria
+SW,73,38.97,4.31,Proteobacteria
+SW,74,38.1,6.84,Verrucomicrobia
+SW,75,36.04,0.91,Chloroflexi
+SW,76,30.86,3.51,Proteobacteria
+SW,77,29.25,7.62,NA
+SW,78,27.91,5.74,NA
+SW,79,27.19,0,NA
+SW,80,25.86,5.17,NA
+SW,81,24.62,2.96,NA
+SW,82,23.73,0,NA
+SW,83,23.69,2.68,NA
+SW,84,23.24,1.22,NA
+SW,85,21.68,1.03,NA
+SW,86,21.55,0,NA
+SW,87,21.05,9.01,NA
+SW,88,21.03,0.1,NA
+SW,89,20.69,5.17,NA
+SW,90,20.44,1.1,NA
+WC,1,88.49,2.08,Cyanobacteria
+WC,2,81.94,0.93,Candidatus Gracilibacteria
+WC,3,74.06,0.74,Bacteroidetes
+WC,4,71.31,12.65,Proteobacteria
+WC,5,66.38,1.72,Bacteroidetes
+WC,6,65.31,2.76,Proteobacteria
+WC,7,64.95,0.85,Candidatus Gracilibacteria
+WC,8,61.72,0.37,Chlamydiae
+WC,9,60.44,1.17,Candidatus Omnitrophica
+WC,10,59.73,8.75,Proteobacteria
+WC,11,58.95,0,Candidatus Pacebacteria
+WC,12,58.15,0,Candidatus Berkelbacteria
+WC,13,58.09,6.77,Candidatus Microgenomates
+WC,14,58.04,1.71,Candidatus Pacebacteria
+WC,15,56.87,0,Candidatus Pacebacteria
+WC,16,52.72,0.33,Cyanobacteria
+WC,17,50.15,1.03,Proteobacteria
+WC,18,46.55,0,Actinobacteria
+WC,19,45.39,0.8,Candidatus Gracilibacteria
+WC,20,45.33,7.57,Planctomycetes
+WC,21,44.85,3.33,Candidatus Gracilibacteria
+WC,22,44.11,0.68,NA
+WC,23,43.29,0.47,Candidatus Pacebacteria
+WC,24,43.27,2.81,Candidatus Pacebacteria
+WC,25,42.95,0.8,Candidatus Gracilibacteria
+WC,26,41.38,0.57,NA
+WC,27,39.7,2.15,Candidatus Omnitrophica
+WC,28,39.42,0.85,Candidatus Pacebacteria
+WC,29,37.93,0,Proteobacteria
+WC,30,37.73,5.06,Candidatus Pacebacteria
+WC,31,37.07,0,Proteobacteria
+WC,32,36.06,0,Candidatus Pacebacteria
+WC,33,35.9,0.23,Nitrospirae
+WC,34,35.85,0.81,Actinobacteria
+WC,35,35.19,2.35,Proteobacteria
+WC,36,34.73,1.72,Candidatus Pacebacteria
+WC,37,33.08,0,Candidatus Gracilibacteria
+WC,38,32.52,0,Candidatus Pacebacteria
+WC,39,29.38,0,Candidatus Pacebacteria
+WC,40,28.48,2.25,Candidatus Pacebacteria
+WC,41,28.07,0,NA
+WC,42,27.47,0,NA
+WC,43,27.41,1.19,NA
+WC,44,24.16,0,NA
+WC,45,24.14,0,NA
+WC,46,23.88,1.82,NA
+WC,47,21.61,1.12,NA
+WC,48,21.61,0.34,NA
+WC,49,21.57,6.71,NA
+WC,50,20.69,1.72,NA
+WC,51,20.61,0,NA
+WC,52,19.12,0,NA
+WC,53,19.04,0,NA
+WC,54,16.88,1.72,NA
+WC,55,16.38,0,NA
+WC,56,16.22,0,NA
+WC,57,15.91,0,NA
+WC,58,14.81,0,NA
+WC,59,14.66,1.38,NA
+WC,60,13.79,1.72,NA

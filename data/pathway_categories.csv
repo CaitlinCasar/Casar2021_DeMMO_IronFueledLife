@@ -1,0 +1,22 @@
+category,gene_function,pathway
+iron_oxidation,,iron_oxidation
+possible_iron_oxidation_and_possible_iron_reduction,,possible_iron_oxidation_and_possible_iron_reduction
+C1 metabolism,,org C oxidation
+Carbon fixation,,Carbon fixation
+Hydrogenases,,hydrogen oxidation
+,Methane oxidation - Soluble methane monoxygenase,methane oxidation
+,Nitrate reduction,Nitrate reduction
+,Nitrite reduction,Nitrite reduction
+,Nitrite reduction to ammonia,Nitrite reduction
+Oxidative phosphorylation,Complex I (NADH-quinone oxidoreductase),oxygen reduction
+Oxygen metabolism (Oxidative phosphorylation Complex IV),"Oxygen metabolism - cytochrome (quinone) oxidase, bd type",oxygen reduction
+iron_oxidation,,iron_oxidation
+iron_reduction,,iron_reduction
+probable_iron_reduction,,probable_iron_reduction
+Carbon fixation,,Carbon fixation
+Metal reduction,,iron_reduction
+,Nitrite oxidation,Nitrite oxidation
+Perchlorate reduction,,Perchlorate reduction
+,Methane oxidation - Partculate methane monooxygenase,methane oxidation
+,Methane production,Methane production
+,Ammonia oxidation,Ammonia oxidation
