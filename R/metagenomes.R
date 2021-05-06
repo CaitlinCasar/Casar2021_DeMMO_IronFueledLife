@@ -1,6 +1,6 @@
 pacman::p_load(tidyverse, heatmaply, viridis, gplots, dendextend, vegan, gplots, Heatplus, scales)
 
-metagenome_data <- read_csv("../data/metagenome_data.csv") %>%
+metagenome_data <- read_csv(paste0(write_path, "metagenome_data.csv")) %>%
   mutate(check = if_else(call == "ambiguous" & str_detect(category, "Metal reduction") & str_detect(category, "iron_reduction"), "fegenie", call),
          category = if_else(call == "ambiguous" & str_detect(category, "Metal reduction"), str_split(category, ",")[[1]][1], category),
          call = check) %>% #re-annotate mismatching annotations as "ambiguous
@@ -9,11 +9,11 @@ metagenome_data <- read_csv("../data/metagenome_data.csv") %>%
   summarise(rel_hits = sum(rel_hits), hits = sum(hits)) %>%
   mutate(date = "Apr 2018")
 
-momper_2017_metagenome_data <- read_csv("../data/momper2017_fegenie_metagenome_data.csv")
+momper_2017_metagenome_data <- read_csv(paste0(data_path, "momper2017_fegenie_metagenome_data.csv"))
 
 # categorize metabolic pathways -------------------------------------------
 
-pathway_categories <- read_csv("../data/pathway_categories.csv") %>%
+pathway_categories <- read_csv(paste0(data_path, "pathway_categories.csv")) %>%
   filter(!gene_function %in% c("Nitrite reduction", "Nitrite reduction to ammonia", "Nitrite oxidation")) %>%
   filter(!category %in% c("possible_iron_oxidation_and_possible_iron_reduction", "probable_iron_reduction"))
 categories <- pathway_categories %>%
@@ -35,20 +35,18 @@ fe_pathways <- metagenome_data %>%
   summarise(rel_hits = sum(rel_hits))
 
 #write supp table 1
-# metagenome_data %>%
-#   ungroup() %>%
-#   inner_join(gene_functions) %>%
-#   bind_rows(metagenome_data %>%
-#               ungroup() %>%
-#               inner_join(categories)) %>% select(pathway, call, category, gene_function, Gene.abbreviation) %>% distinct() %>% arrange(pathway, call, category, gene_function) %>% write_csv("../data/supp_table1.csv")
+metagenome_data %>%
+ ungroup() %>%
+ inner_join(gene_functions) %>%
+ bind_rows(metagenome_data %>%
+             ungroup() %>%
+             inner_join(categories)) %>% select(pathway, call, category, gene_function, Gene.abbreviation) %>% distinct() %>% arrange(pathway, call, category, gene_function) %>% write_csv(paste0(write_path, "supp_table1.csv"))
 
 fe_pathways_plot <- fe_pathways %>%
   ggplot(aes(rel_hits, site, color = pathway, group = pathway)) +
   geom_point() +
   scale_x_log10() +
   facet_grid(cols = vars(pathway))
-
-#plotly::ggplotly(fe_pathways_plot)
 
 metagenome_pathway_heatmap <- fe_pathways %>%
   pivot_wider(names_from = pathway, values_from = rel_hits, values_fill = list(rel_hits= 0)) %>%
@@ -116,7 +114,7 @@ diversity_plot <- fe_gene_diversity %>%
 
 # heat map clustering on iron genes ---------------------------------------
 
-summary_matrix <- metagenome_data %>%
+summary_mat <- metagenome_data %>%
   ungroup() %>%
   filter(call == "fegenie") %>%
   mutate(category = recode(category, igr = "iron_gene_regulation",
@@ -133,23 +131,26 @@ summary_matrix <- metagenome_data %>%
                            probable_iron_reduction = "pr")) %>%
   filter(category %in% c("ir", "io", "popr", "pr"))
 
-gene_ids <- summary_matrix %>%
+gene_ids <- summary_mat %>%
   ungroup() %>%
   select(category, gene_function) %>%
   distinct() %>%
   arrange(category, gene_function) %>%
   group_by(category) %>%
   mutate(id = 1:n(),
-         gene_id= paste(category, id, sep = "_"),
-         category = recode(category, io = "iron oxidation",
-                           ir = "iron reduction",
-                           popr = "probable iron oxidation or reduction",
-                           pr = "probable iron reduction"))
+         gene_id= paste(category, id, sep = "_"))
+
+
 
 #write data to Supplementary table
-#gene_ids %>% select(gene_id, category, gene_function) %>% write_csv("../data/supp_table3.csv")
+gene_ids %>% 
+  mutate(category = recode(category, io = "iron oxidation",
+                           ir = "iron reduction",
+                           popr = "probable iron oxidation or reduction",
+                           pr = "probable iron reduction")) %>%
+  select(gene_id, category, gene_function) %>% write_csv(paste0(write_path, "supp_table4.csv"))
 
-summary_matrix <- summary_matrix %>%
+summary_matrix <- summary_mat %>%
   left_join(gene_ids %>% select(category, gene_function, gene_id)) %>%
   select(site, gene_id, rel_hits) %>%
   pivot_wider(id_cols = site, names_from = gene_id, values_from = rel_hits, values_fill = list(rel_hits = 0)) %>%
@@ -191,22 +192,6 @@ cat_color_vec <- data.frame(gene_id = colnames(summary_matrix)) %>%
   select(color) %>%
   pull()
 
-heatmap.2(as.matrix(summary_matrix), 
-          Rowv = as.dendrogram(row.clus), 
-          Colv = as.dendrogram(col.clus), 
-          col = viridis_pal(), 
-          margins = c(10, 8),
-          ColSideColors = cat_color_vec,
-          trace = "none", 
-          density.info = "none",
-          keysize = 1,
-          key.par=list(mar=c(3,5,4,5))
-) # this makes the colour-key legend a little thinner
-
-
-
-legend("topright",legend=cat_colors$category, 
-       fill=cat_colors$color, cex=0.4, box.lty=0)
 
 
 # iron cycling breakdown --------------------------------------------------
@@ -258,3 +243,5 @@ housekeeping_genes <- metagenome_data %>%
   select(category, gene_function) %>%
   distinct()
   
+
+

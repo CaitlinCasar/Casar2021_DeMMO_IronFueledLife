@@ -34,7 +34,7 @@ averaged_data <- read_csv("../data/geochemistry/geochem.csv") %>%
 geochemistry <- geochemistry %>%
   left_join(averaged_data)
 
-write_csv(geochemistry, "../data/geochemistry/geochem_April2018.csv")
+write_csv(geochemistry, paste0(write_path, "supp_table2.csv"))
 
 #plot geochem 
 geochem_plot <- geochemistry %>%

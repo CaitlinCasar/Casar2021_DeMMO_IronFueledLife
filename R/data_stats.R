@@ -2,7 +2,7 @@ pacman::p_load(tidyverse, cowplot)
 
 # calculate metagenome stats ----------------------------------------------------
 
-metagenome_data <- read_csv("../data/metagenome_data.csv") %>%
+metagenome_data <- read_csv(paste0(write_path, "metagenome_data.csv")) %>%
   mutate(check = if_else(call == "ambiguous" & str_detect(category, "Metal reduction") & str_detect(category, "iron_reduction"), "fegenie", call),
          category = if_else(call == "ambiguous" & str_detect(category, "Metal reduction"), str_split(category, ",")[[1]][1], category),
          call = check) %>% #re-annotate mismatching annotations as "ambiguous
@@ -10,10 +10,18 @@ metagenome_data <- read_csv("../data/metagenome_data.csv") %>%
   group_by(site, genome, call, category, gene_function, Gene.abbreviation, Gene.name) %>%
   summarise(rel_hits = sum(rel_hits), hits = sum(hits))
 
-gene_counts <- read_delim("../data/metabolic/metagenomes/geneCounts.txt", delim = "\t", col_names = F) %>%
+gene_counts <- read_delim(paste0(data_path, "metabolic/metagenomes/geneCounts.txt"), delim = "\t", col_names = F) %>%
   separate(X1, c("id", "gene_counts"), sep = " ") %>%
   separate(id, c("site", "genome")) %>%
   mutate(site = str_remove(site, "eMMO"))
+
+#write supp table 3
+metagenome_data %>%
+  left_join(gene_counts) %>%
+  mutate(gene_counts = as.numeric(gene_counts)) %>%
+  bind_rows(read_csv(paste0(data_path, "momper2017_fegenie_metagenome_data.csv"))) %>%
+  select(-genome) %>%
+  write_csv(paste0(write_path, "supp_table3.csv"))
 
 annotations <- metagenome_data %>%
   group_by(call, site) %>%
@@ -35,8 +43,8 @@ annotations_plot <- annotations %>%
   coord_flip() +
   ggtitle("A. Metagenome annotations") +
   theme(legend.position = "none",
-        axis.title.y = element_blank(),
-        text = element_text(size = 18))
+        axis.title = element_blank(),
+        text = element_text(size = 12))
 
 metagenome_stats_table <- gene_counts %>%
   mutate(site = factor(site, levels = c("D1", "D2", "D3", "D4", "D5", "D6", "SW", "WC"))) %>%
@@ -51,10 +59,10 @@ metagenome_stats_table <- gene_counts %>%
         axis.text.x = element_blank(),
         strip.background.y = element_blank(), strip.text.y = element_blank(),
         axis.ticks=element_blank(),
-        text = element_text(size = 18))
+        text = element_text(size = 12))
 
 # calculate MAG stats ----------------------------------------------------
-files <- list.files("../data/metabolic/genomes", full.names = T, pattern = ".*checkm")
+files <- list.files(paste0(data_path, "metabolic/genomes"), full.names = T, pattern = ".*checkm")
 read_files <- function(file){
   file %>%
     read_delim(delim = "\t")
@@ -66,7 +74,7 @@ checkm_stats <- reduce(checkm_list, full_join) %>%
          genome = as.numeric(genome)) %>%
   select(site, genome, Completeness, Contamination)
 
-genome_data <- read_csv("../data/genome_data.csv") %>%
+genome_data <- read_csv(paste0(write_path, "genome_data.csv")) %>%
   mutate(check = if_else(call == "ambiguous" & str_detect(category, "Metal reduction") & str_detect(category, "iron_reduction"), "fegenie", call),
          category = if_else(call == "ambiguous" & str_detect(category, "Metal reduction"), str_split(category, ",")[[1]][1], category),
          call = check) %>% #re-annotate mismatching annotations as "ambiguous
@@ -74,7 +82,7 @@ genome_data <- read_csv("../data/genome_data.csv") %>%
   group_by(site, genome, call, category, gene_function, Gene.abbreviation, Gene.name) %>%
   summarise(rel_hits = sum(rel_hits), hits = sum(hits)) 
 
-MAG_gene_counts <- read_delim("../data/metabolic/genomes/geneCounts.txt", delim = "\t", col_names = F) %>%
+MAG_gene_counts <- read_delim(paste0(data_path, "metabolic/genomes/geneCounts.txt"), delim = "\t", col_names = F) %>%
   separate(X1, c("id", "gene_counts"), sep = " ") %>%
   separate(id, c("site", "genome")) %>%
   mutate(site = str_remove(site, "eMMO"))
@@ -98,8 +106,8 @@ MAG_annotations_plot <- MAG_annotations %>%
   facet_wrap(~name, scales = "free") + 
   coord_flip() +
   ggtitle("B. MAG annotations") +
-  theme(axis.title.y = element_blank(),
-        text = element_text(size = 18))
+  theme(axis.title = element_blank(),
+        text = element_text(size = 12))
 
 Fe_cycler_MAGs <- genome_data %>%
   ungroup() %>%
@@ -137,19 +145,21 @@ MAG_stats_table <- genome_data %>%
         axis.text.x = element_blank(),
         strip.background.y = element_blank(), strip.text.y = element_blank(),
         axis.ticks=element_blank(),
-        text = element_text(size = 18))
+        text = element_text(size = 12))
 
-#write supp table 4
-# genome_data %>%
-#   group_by(site, genome) %>%
-#   summarise(hits = sum(hits)) %>%
-#   left_join(MAG_gene_counts %>% mutate(genome = as.numeric(genome))) %>% 
-#   left_join(checkm_stats) %>%
-#   left_join(taxonomy %>% mutate(genome = as.numeric(genome))) %>%
-#   write_csv("../data/supp_table4.csv")
+#write supp table 5
+genome_data %>%
+  group_by(site, genome) %>%
+  summarise(hits = sum(hits)) %>%
+  left_join(MAG_gene_counts %>% mutate(genome = as.numeric(genome))) %>%
+  left_join(checkm_stats) %>%
+  left_join(taxonomy %>% mutate(genome = as.numeric(genome))) %>%
+  write_csv(paste0(write_path, "supp_table5.csv"))
 
   # plot data ---------------------------------------------------------------
 
 stat_bar_plots <- plot_grid(annotations_plot, MAG_annotations_plot, align = "v", axis = "l")
 stat_tables <- plot_grid(metagenome_stats_table, MAG_stats_table, align = "v", axis = "l")
-plot_grid(stat_bar_plots, stat_tables, nrow = 2, align = "h")
+data_stats_plot <- plot_grid(stat_bar_plots, stat_tables, nrow = 2, align = "h")
+
+

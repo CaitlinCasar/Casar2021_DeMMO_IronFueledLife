@@ -4,7 +4,7 @@ data_types <- c("genomes", "metagenomes")
 
 join_annotations <- function(data_type){
   
-  path <- paste0("../data/fegenie/", data_type)
+  path <- paste0(data_path, "fegenie/", data_type)
   files <- list.files(path, full.names = T, pattern = ".*geneSummary.csv")
   
   read_fegenie <- function(file){
@@ -20,7 +20,7 @@ join_annotations <- function(data_type){
   fegenie_data <- reduce(fegenie_list, full_join)
   
   
-  path <- paste0("../data/metabolic/", data_type)
+  path <- paste0(data_path, "metabolic/", data_type)
   files <- list.files(path, full.names = T, pattern = ".*METABOLIC_result.xlsx")
   
   gene_counts <- read_delim(paste0(path, "/geneCounts.txt"), delim = "\t", col_names = F) %>%
@@ -66,9 +66,9 @@ join_annotations <- function(data_type){
 }
 
 genome_data <- join_annotations(data_types[1]) %>%
-  write_csv("../data/genome_data.csv")
+  write_csv(paste0(write_path, "genome_data.csv"))
 metagenome_data <- join_annotations(data_types[2])%>%
-  write_csv("../data/metagenome_data.csv")
+  write_csv(paste0(write_path, "metagenome_data.csv"))
 
 
   

@@ -3,7 +3,7 @@ pacman::p_load(tidyverse, CHNOSZ, cowplot)
 
 #estimate CO activity 
 #convert from nM to M and estimate activity from averaged log concentration
-CO <- read_csv("../data/geochemistry/geochem.csv") %>%
+CO <- read_csv(paste0(data_path, "geochemistry/geochem.csv")) %>%
   group_by(site) %>%
   summarise(CO = mean(CO, na.rm = T)/1000000000) %>%
   filter(!is.na(site)) %>%
@@ -13,7 +13,7 @@ CO <- read_csv("../data/geochemistry/geochem.csv") %>%
   select(site, species, log_act, molality) #molality here is actually molarity, converted to molality later
 
 #read_activity data - missing CO(aq)
-files <- list.files("../data/geochemistry", full.names = T, pattern = ".*nobalance.txt")
+files <- list.files(paste0(data_path, "geochemistry"), full.names = T, pattern = ".*nobalance.txt")
 
 read_files <- function(file){
   site <- str_extract(file, "(?<=data/geochemistry/)(.*)(?=_output_April18_nobalance[.]txt)")
@@ -63,16 +63,7 @@ activities <- activities %>%
   select(-soln_density)
 
 
-# activities <- read_csv("https://raw.githubusercontent.com/CaitlinCasar/Casar2020_DeMMO_MineralHostedBiofilms/master/orig_data/DeMMO_SpecE8_aqueousGas.csv") %>%
-#   pivot_longer(`Ca+2`:CO, names_to = "react_prod", values_to = "activity")
-
-#import DeMMO mineral reactions
-# reactions <- read_csv("https://raw.githubusercontent.com/CaitlinCasar/Casar2020_DeMMO_MineralHostedBiofilms/master/orig_data/reactions_aq_gas.csv",
-#                       col_types = cols (.default = "c")) 
-
-reactions <- read_csv("../data/geochemistry/reactions.csv", col_types = cols (.default = "c")) 
-
-
+reactions <- read_csv(paste0(data_path, "geochemistry/reactions.csv"), col_types = cols (.default = "c")) 
 
 #add ferrihydrite to database
 ferrihydrite <- mod.OBIGT("ferrihydrite", G=-111200, H=-127800, S=16.7, V=20.88, formula="FeOOH", state="cr", a1.a=8.70, a2.b=36.71, a3.c=-1.0146, E_units = "cal")
@@ -139,11 +130,11 @@ deltaG <- logK %>%
          energy_density = if_else(EA_availability < ED_availability & !is.na(EA), EA, ED),
          energy_density = if_else(is.na(energy_density) & !is.na(EA), EA, energy_density))  
 
-#write supp table 5
-# deltaG %>% 
-#   select(rxn.number, site, e.donor, e.acceptor, e.transfer, LogK, logQ, deltaG, energy_density) %>% 
-#   arrange(as.numeric(rxn.number), site) %>%
-#   write_csv("../data/supp_table5.csv")
+#write supp table 6
+deltaG %>%
+  select(rxn.number, site, e.donor, e.acceptor, e.transfer, LogK, logQ, deltaG, energy_density) %>%
+  arrange(as.numeric(rxn.number), site) %>%
+  write_csv(paste0(write_path, "supp_table6.csv"))
 
 endergonic_rxns <- deltaG %>%
   filter(is.na(energy_density)) %>%
@@ -171,7 +162,7 @@ deltaG_plot <- deltaG %>%
   theme(legend.key.size =  unit(0.1, "in")) +
   facet_wrap(~name, scales = "free_x")#resize the legend to make it fit 
 
-geochemistry <- read_csv("../data/geochemistry/geochem_April2018.csv")
+geochemistry <- read_csv(paste0(data_path, "geochemistry/geochem_April2018.csv"))
 
 #plot energy density
 energy_density_plot <- deltaG %>%
@@ -184,38 +175,10 @@ energy_density_plot <- deltaG %>%
   ggplot(aes(energy_density, reorder(id, energy_density), shape=site, color=e_donor_acceptor, label = iron)) +
   theme_gray() +
   geom_point(size = 4, stroke = 1) + 
-  #{if(e_donor_acceptor %in% c("ferrihydrite", "Fe+2")) geom_hline(yintercept = rxn.number, color = "black", linetype="dotted", size=1.5, alpha=0.3)} + 
   scale_shape_manual(values = c(0,1,2,15,16,17)) + #manually set the shapes for each point to denote the six different sites 
   scale_color_manual(values = thermo_palette) +
-  #scale_x_reverse() + #reverse the x-axis to show exergonic values on the right, this is standard for this kind of data
   labs(x=expression(Delta~G[r]~log~'J/kg'~H[2]~'O')) + #generate the axis labels
   ylab("Reaction #") +
-  #theme(legend.position = c(.8, .8), legend.text=element_text(size=8), legend.title = element_text(size=8, face="bold")) + #position the legend on the left 
   theme(legend.key.size =  unit(0.1, "in"),
         text=element_text(size=18)) +
   facet_wrap(~type, scales = "free_y")
-#facet_grid(vars(name), vars(iron), scales = "free")
-
-# #ferrous iron energy density scaled to e- acceptors
-# Fe2_plot <- deltaG %>%
-#   select(rxn.number, site, EA, e.acceptor)%>%
-#   filter(!is.na(EA)) %>%
-#   #pivot_longer(deltaG:ED, names_to = "name", values_to = "value", values_drop_na = T) %>%
-#   ggplot(aes(EA, reorder(rxn.number, -EA), shape=site, group=rxn.number)) +
-#   theme_gray() +
-#   geom_line(aes(color=e.acceptor), size=2.5, alpha=0.6) + #color each line spanning the deltaG values for the six sites by the mineral in the reaction
-#   geom_point() + 
-#   scale_shape_manual(values = c(0,1,2,15,16,17)) + #manually set the shapes for each point to denote the six different sites 
-#   scale_color_manual(values = thermo_palette) +
-#   #scale_x_reverse() + #reverse the x-axis to show exergonic values on the right, this is standard for this kind of data
-#   labs(x=expression(Delta~G[r]~log~'J/kg'~H[2]~'O')) + #generate the axis labels
-#   ylab("Reaction #") +
-#   #geom_vline(xintercept = 0, linetype="dotted", color = "black") + #add a vertical line at zero for reference 
-#   #theme(legend.position = c(.08, .6), legend.text=element_text(size=8), legend.title = element_text(size=8, face="bold")) + #position the legend on the left 
-#   theme(legend.key.size =  unit(0.1, "in")) 
-#   #theme(legend.position = "none")
-# 
-# plot_grid(deltaG_vs_HS, Fe2_plot, nrow = 2, 
-#           rel_heights = c(2.5, 1), 
-#           labels = c("A.", "B."),  hjust = -0.1)
-# 

@@ -1,17 +1,17 @@
 pacman::p_load(tidyverse, janitor)
 
 
-momper2017_gene_count <- read_delim("../data/fegenie/metagenomes/momper2017/geneCounts.txt", delim = "\t", col_names = F) %>%
+momper2017_gene_count <- read_delim(paste0(data_path, "fegenie/metagenomes/momper2017/geneCounts.txt"), delim = "\t", col_names = F) %>%
   separate(X1, c("id", "gene_counts"), sep = "  ") %>%
   separate(id, c("site", "genome"))  %>%
   mutate(gene_counts = as.numeric(gene_counts))
 
-momper2017_mag_metadata <- read_csv("../data/fegenie/genomes/momper2017/MAG_metadata.csv") %>%
+momper2017_mag_metadata <- read_csv(paste0(data_path, "fegenie/genomes/momper2017/MAG_metadata.csv")) %>%
   remove_empty()
 
 
 read_fegenie <- function(type){
-  files <- list.files(paste0("../data/fegenie/", type, "/momper2017"), full.names = T, pattern = ".*geneSummary.csv")
+  files <- list.files(paste0(paste0(data_path, "fegenie/"), type, "/momper2017"), full.names = T, pattern = ".*geneSummary.csv")
   read_file <- function(file){
     site <- str_extract(file, "(?<=momper2017/)(.*)(?=_FeGenie)")
     file %>%
@@ -35,7 +35,7 @@ momper2017_meta_fegenie <- read_fegenie("metagenomes") %>%
   left_join(momper2017_gene_count) %>%
   mutate(rel_hits = hits/gene_counts*100)
 
-write_csv(momper2017_meta_fegenie, "../data/momper2017_fegenie_metagenome_data.csv")
+write_csv(momper2017_meta_fegenie, paste0(write_path, "momper2017_fegenie_metagenome_data.csv"))
 
 momper2017_genomes_fegenie <- read_fegenie("genomes") %>%
   left_join(momper2017_mag_metadata) 
@@ -132,6 +132,4 @@ momper2017_taxa_gene_fered <- momper2017_taxa_genes %>%
         legend.position = "none")  +
   ggtitle("B. Iron Reduction Genes")
 
-plot_grid(momper2017_taxa_function_plot, 
-          plot_grid(momper2017_taxa_gene_feox, momper2017_taxa_gene_fered, align = "v", axis = "l", rel_widths = c(2, 2), ncol = 2), nrow = 2, rel_heights = c(2, 2.5))
 
